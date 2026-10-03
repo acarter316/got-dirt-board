@@ -11,13 +11,13 @@
 <meta name="apple-mobile-web-app-title" content="Got Dirt">
 
 <meta name="description" content="Cherry Creek Nursery field/stock location command center - search cultivar or plot, highlight on nursery map.">
-<link rel="stylesheet" href="style.css?v=31">
+<link rel="stylesheet" href="style.css?v=32">
 </head>
 <body>
 
 <header class="header">
   <img class="icon-header" src="icons/icon-180.png" alt="" width="48" height="48">
-  <div>
+  <div class="header-copy">
     <h1>GOT DIRT - FIELD STOCK</h1>
     <div class="subtitle">
       Cherry Creek Nursery | Live inventory sheet <b id="statSheet">25-26</b>
@@ -25,7 +25,25 @@
       | Map highlights: <span id="statCal">APPROXIMATE</span>
     </div>
   </div>
-  <div class="badge"><span id="statPlots">-</span> plots</div>
+  <div class="header-tools">
+    <button type="button" id="btnTools" class="tools-kebab" aria-label="Tools" aria-expanded="false" aria-controls="toolsPanel">⋮</button>
+    <div id="toolsPanel" hidden>
+      <div class="badge"><span id="statPlots">-</span> plots</div>
+      <div class="map-toolbar">
+      <span id="mapStatus">No highlight</span>
+      <button type="button" id="btnMyLocation" aria-pressed="false" title="Show this phone on the Farm 1 map. GPS stays in the browser and is not saved.">Show my location</button>
+      <span id="myLocStatus" class="myloc-status" hidden></span>
+      <span style="flex:1"></span>
+      <button type="button" id="btnOutlineMode" title="Draw full block outlines yourself (ignore printed numbers)" aria-pressed="false">Outline help</button>
+      <button type="button" id="btnLabelMode" title="Click any outline (labeled or unlabeled) to assign or correct plot ids" aria-pressed="false">Label mode</button>
+      <button type="button" id="btnCopyLabels" title="Copy localStorage labels as JSON patch" hidden>Copy labels JSON</button>
+      <button type="button" id="btnClearLabels" title="Wipe all localStorage polygon labels">Clear all labels</button>
+      <button type="button" id="btnAssignPhotos" title="Assign Tree Photos with GPS to plot IDs (you choose)" aria-pressed="false">Assign photos</button>
+      <button type="button" id="btnClear">Clear</button>
+      <button type="button" id="btnFit">Reset map scroll</button>
+    </div>
+    </div>
+  </div>
 </header>
 
 <div class="layout">
@@ -46,19 +64,6 @@
   </aside>
 
   <section class="map-pane">
-    <div class="map-toolbar">
-      <span id="mapStatus">No highlight</span>
-      <button type="button" id="btnMyLocation" aria-pressed="false" title="Show this phone on the Farm 1 map. GPS stays in the browser and is not saved.">Show my location</button>
-      <span id="myLocStatus" class="myloc-status" hidden></span>
-      <span style="flex:1"></span>
-      <button type="button" id="btnOutlineMode" title="Draw full block outlines yourself (ignore printed numbers)" aria-pressed="false">Outline help</button>
-      <button type="button" id="btnLabelMode" title="Click any outline (labeled or unlabeled) to assign or correct plot ids" aria-pressed="false">Label mode</button>
-      <button type="button" id="btnCopyLabels" title="Copy localStorage labels as JSON patch" hidden>Copy labels JSON</button>
-      <button type="button" id="btnClearLabels" title="Wipe all localStorage polygon labels">Clear all labels</button>
-      <button type="button" id="btnAssignPhotos" title="Assign Tree Photos with GPS to plot IDs (you choose)" aria-pressed="false">Assign photos</button>
-      <button type="button" id="btnClear">Clear</button>
-      <button type="button" id="btnFit">Reset map scroll</button>
-    </div>
     <div class="assign-bar" id="assignBar" hidden>
       <span id="assignMeta">Assign photos: -</span>
       <span class="assign-hint">You assign plot IDs - no GPS/Excel auto-suggest</span>
@@ -134,6 +139,6 @@
   <img id="lightboxImg" alt="Enlarged plot photo">
 </div>
 
-<script src="app.js?v=31"></script>
+<script src="app.js?v=32"></script>
 </body>
 </html>

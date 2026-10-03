@@ -2877,3 +2877,27 @@
     )}<br>Serve from got-dirt root or /app/ with data/ present.</div>`;
   });
 })();
+
+(function () {
+  var btn = document.getElementById("btnTools");
+  var panel = document.getElementById("toolsPanel");
+  if (!btn || !panel) return;
+  function setOpen(open) {
+    if (open) panel.removeAttribute("hidden");
+    else panel.setAttribute("hidden", "");
+    panel.hidden = !open;
+    btn.setAttribute("aria-expanded", open ? "true" : "false");
+  }
+  btn.addEventListener("click", function (e) {
+    e.stopPropagation();
+    setOpen(panel.hidden);
+  });
+  document.addEventListener("click", function (e) {
+    if (panel.hidden) return;
+    if (panel.contains(e.target) || btn.contains(e.target)) return;
+    setOpen(false);
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && !panel.hidden) setOpen(false);
+  });
+})();

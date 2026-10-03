@@ -13,9 +13,38 @@ body{
 }
 .icon-header{border-radius:10px;flex-shrink:0;background:#fff;}
 .header{
-  display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;
+  position:relative;z-index:30;
+  display:flex;justify-content:space-between;align-items:center;flex-wrap:nowrap;
   gap:12px;padding:18px 22px 10px;border-bottom:1px solid var(--border);
   background:linear-gradient(180deg,#10151f,#0b0e14);
+}
+.header-copy{min-width:0;flex:1;}
+.header-tools{position:relative;flex:0 0 auto;}
+.tools-kebab{
+  width:40px;height:36px;display:inline-flex;align-items:center;justify-content:center;
+  background:#0f2133;color:#e6ebf5;border:1px solid #1e4a7c;border-radius:8px;
+  padding:0;font-size:22px;line-height:1;font-weight:700;cursor:pointer;
+}
+.tools-kebab:hover{filter:brightness(1.2);}
+/* Tools menu is closed on every viewport. No desktop exception. */
+#toolsPanel[hidden]{display:none !important;}
+#toolsPanel{
+  position:absolute;top:calc(100% + 6px);right:0;z-index:40;
+  display:flex;flex-direction:column;align-items:flex-start;gap:8px;
+  width:max-content;max-width:min(440px, calc(100vw - 16px));
+  background:#161d2b;border:1px solid #232e44;color:#e6ebf5;
+  border-radius:12px;padding:10px;
+  box-shadow:0 12px 32px rgba(0,0,0,.5);
+}
+#toolsPanel .badge{margin:0;}
+#toolsPanel .map-toolbar{
+  width:100%;max-width:100%;
+  display:flex;align-items:center;flex-wrap:wrap;gap:8px;
+  padding:0;margin:0;border:none;background:transparent;
+}
+#toolsPanel .map-toolbar > span[style]{display:none;}
+#toolsPanel #mapStatus{
+  flex:1 0 100%;min-width:0;white-space:normal;overflow-wrap:anywhere;line-height:1.35;
 }
 h1{
   font-size:22px;font-weight:800;letter-spacing:-.4px;
