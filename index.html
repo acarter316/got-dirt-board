@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Got Dirt â€” Field Stock Command Center</title>
+<meta name="theme-color" content="#0b0e14">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="apple-mobile-web-app-title" content="Got Dirt">
+
+<meta name="description" content="Cherry Creek Nursery field/stock location command center â€” search cultivar or plot, highlight on nursery map.">
+<link rel="stylesheet" href="style.css?v=28">
+</head>
+<body>
+
+<header class="header">
+  <img class="icon-header" src="icons/icon-180.png" alt="" width="48" height="48">
+  <div>
+    <h1>GOT DIRT â€” FIELD STOCK</h1>
+    <div class="subtitle">
+      Cherry Creek Nursery Â· Live inventory sheet <b id="statSheet">25-26</b>
+      Â· Indexed <span id="statGen">â€”</span>
+      Â· Map highlights: <span id="statCal">APPROXIMATE</span>
+    </div>
+  </div>
+  <div class="badge"><span id="statPlots">â€”</span> plots</div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar">
+    <div class="searchbar">
+      <input id="q" type="search" placeholder="Cultivar, plot, or size (e.g. October Glory 3&quot; or 3 in)â€¦" autocomplete="off" autofocus>
+    </div>
+    <div class="meta" id="resultMeta">Type a cultivar, plant, or plot id (e.g. October Glory, boxwood, 1.12)</div>
+    <div class="meta" style="padding-top:0">
+      <button type="button" data-demo="October Glory" style="all:unset;cursor:pointer" class="chip">October Glory</button>
+      <button type="button" data-demo="boxwood" style="all:unset;cursor:pointer" class="chip">boxwood</button>
+      <button type="button" data-demo="1.12" style="all:unset;cursor:pointer" class="chip">1.12</button>
+      <button type="button" data-demo="OPEN" style="all:unset;cursor:pointer" class="chip">OPEN</button>
+    </div>
+    <div class="label-queue" id="labelQueue" hidden></div>
+    <div class="assign-list" id="assignList" hidden></div>
+    <div class="results" id="results"></div>
+  </aside>
+
+  <section class="map-pane">
+    <div class="map-toolbar">
+      <span id="mapStatus">No highlight</span>
+      <span style="flex:1"></span>
+      <button type="button" id="btnOutlineMode" title="Draw full block outlines yourself (ignore printed numbers)" aria-pressed="false">Outline help</button>
+      <button type="button" id="btnLabelMode" title="Click any outline (labeled or unlabeled) to assign or correct plot ids" aria-pressed="false">Label mode</button>
+      <button type="button" id="btnCopyLabels" title="Copy localStorage labels as JSON patch" hidden>Copy labels JSON</button>
+      <button type="button" id="btnClearLabels" title="Wipe all localStorage polygon labels">Clear all labels</button>
+      <button type="button" id="btnAssignPhotos" title="Assign Tree Photos with GPS to plot IDs (you choose)" aria-pressed="false">Assign photos</button>
+      <button type="button" id="btnClear">Clear</button>
+      <button type="button" id="btnFit">Reset map scroll</button>
+    </div>
+    <div class="assign-bar" id="assignBar" hidden>
+      <span id="assignMeta">Assign photos: â€”</span>
+      <span class="assign-hint">You assign plot IDs â€” no GPS/Excel auto-suggest</span>
+      <label class="assign-filter">Show
+        <select id="assignFilter">
+          <option value="unassigned" selected>Unassigned</option>
+          <option value="assigned">Assigned</option>
+          <option value="all">All GPS</option>
+        </select>
+      </label>
+      <input id="assignSearch" type="search" placeholder="Filter cultivar / filenameâ€¦" autocomplete="off">
+      <label class="gps-check"><input type="checkbox" id="chkShowGpsPins" checked> Show pin</label>
+    </div>
+    <div class="label-bar" id="labelBar" hidden>
+      <span id="labelQueueMeta">Needs label: â€”</span>
+      <button type="button" id="btnLabelPrev" title="Previous unlabeled">Prev</button>
+      <button type="button" id="btnLabelNext" title="Next unlabeled">Next</button>
+      <label>id <input id="labelInput" type="text" placeholder="e.g. 1.12" maxlength="12" autocomplete="off"></label>
+      <button type="button" id="btnLabelApply">Apply + next</button>
+      <button type="button" id="btnLabelSkip" title="Skip this outline for now">Skip</button>
+      <button type="button" id="btnLabelClearPoly" title="Clear id on selected polygon">Unlabel</button>
+      <button type="button" id="btnLabelDeletePoly" title="Delete this auto outline (persisted in browser)">Delete outline</button>
+    </div>
+    <div class="outline-bar" id="outlineBar" hidden>
+      <span class="outline-hint">Click a bad auto outline to select it, then Delete. Or click corners of a FULL block to draw (Done / double-click â†’ type id â†’ Save). Uncheck Hide auto to see/select autos.</span>
+      <button type="button" id="btnOutlineDone" title="Close polygon (â‰¥3 points)">Done</button>
+      <button type="button" id="btnOutlineCancel" title="Cancel current draw">Cancel draw</button>
+      <button type="button" id="btnOutlineDelete" title="Delete selected outline (auto or custom)">Delete selected</button>
+      <label class="outline-check"><input type="checkbox" id="chkHideAuto"> Hide auto outlines</label>
+      <label>id <input id="outlineIdInput" type="text" placeholder="e.g. 1.12" maxlength="12" autocomplete="off"></label>
+      <button type="button" id="btnOutlineSave" title="Save closed outline with plot id">Save outline</button>
+      <button type="button" id="btnCopyOutlines" title="Copy custom outlines JSON">Copy outlines JSON</button>
+      <button type="button" id="btnClearOutlines" title="Clear all my custom outlines">Clear my outlines</button>
+      <button type="button" id="btnClearAutoOutlines" title="Delete ALL auto polygons (persisted in browser; file unchanged)">Clear auto outlines</button>
+      <span id="outlineMeta">â€”</span>
+    </div>
+    <div class="map-wrap">
+      <div class="map-stage" id="mapStage">
+        <img src="nursery-map.jpeg?v=28" alt="Cherry Creek Nursery field map" width="3383" height="3575" decoding="async">
+        <svg id="polyLayer" class="poly-layer" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"></svg>
+        <svg id="drawLayer" class="draw-layer" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"></svg>
+        <div id="pins"></div>
+        <div id="gpsPins" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <aside class="photo-panel" id="photoPanel" aria-label="Plot photos">
+    <div class="photo-panel-head">
+      <div class="photo-panel-title">
+        <span class="photo-panel-kicker">Photos</span>
+        <strong id="photoPanelPlot">â€”</strong>
+        <span class="photo-panel-sub" id="photoPanelSub"></span>
+      </div>
+      <button type="button" id="btnPhotoClose" title="Close photo panel" aria-label="Close">Ã—</button>
+    </div>
+    <div class="photo-panel-body" id="photoPanelBody">
+      <div class="photo-empty">Select a plot (search hit or map outline) to view photos.</div>
+    </div>
+  </aside>
+
+</div>
+
+<footer class="footer">
+  <div>Source: <b>map.xlsx</b> sheet <b>25-26</b> Â· Rebuild: <code>scripts/rebuild_index.py</code></div>
+  <div>Polygons: <b>plot-polygons.json</b> Â· Label mode to assign plot ids Â· pins fallback</div>
+</footer>
+
+
+<div class="lightbox" id="lightbox" hidden>
+  <button type="button" class="lightbox-close" id="btnLightboxClose" aria-label="Close lightbox">Ã—</button>
+  <img id="lightboxImg" alt="Enlarged plot photo">
+</div>
+
+<script src="app.js?v=28"></script>
+</body>
+</html>

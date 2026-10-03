@@ -1,0 +1,3904 @@
+{
+  "sourceSheet": "25-26",
+  "generatedAt": "2026-09-26T15:34:06-05:00",
+  "plots": [
+    {
+      "id": "1.01",
+      "farm": 1,
+      "plants": "Taylor Juniper (3) left 9-11' , Trautman Juniper 9-10' , Star Power Juniper 10-14' LTD 8-9', Weeping White Pine LTD 6-10', Forever Goldie Arbroviate- 24-36\" , Paul Select Norway 24-36\"",
+      "empty": false,
+      "tokens": [
+        "taylor",
+        "juniper",
+        "trautman",
+        "star",
+        "power",
+        "weeping",
+        "white",
+        "pine",
+        "forever",
+        "goldie",
+        "arbroviate",
+        "paul",
+        "select",
+        "norway"
+      ]
+    },
+    {
+      "id": "1.02",
+      "farm": 1,
+      "plants": "Sprinter boxwood (big leaf) 24-30\" (2) 42\",  Snow Queen Hydrangea LTD 24-36\", American Boxwood 24-30\"",
+      "empty": false,
+      "tokens": [
+        "sprinter",
+        "boxwood",
+        "leaf",
+        "snow",
+        "queen",
+        "hydrangea",
+        "american"
+      ]
+    },
+    {
+      "id": "1.03",
+      "farm": 1,
+      "plants": "Robin Holly- 6-8', LTD 8'",
+      "empty": false,
+      "tokens": [
+        "robin",
+        "holly"
+      ]
+    },
+    {
+      "id": "1.04",
+      "farm": 1,
+      "plants": "1.5 row Presidential Gold Ginko (5) 1.5-2.5\" , 4 row Autum Gold Ginko 1.5-2.5\", Milky way Dogwood 1.5-2\" LTD 2-2.5\", Cornus Mas Cornelian Cherry Dogwood (golden glory) 2-3\"",
+      "empty": false,
+      "tokens": [
+        "presidential",
+        "gold",
+        "ginko",
+        "autum",
+        "milky",
+        "way",
+        "dogwood",
+        "cornus",
+        "mas",
+        "cornelian",
+        "cherry",
+        "golden",
+        "glory"
+      ]
+    },
+    {
+      "id": "1.05",
+      "farm": 1,
+      "plants": "Eastern Redbud - s23- 1.5-2\" LTD 2.5\"",
+      "empty": false,
+      "tokens": [
+        "eastern",
+        "redbud"
+      ]
+    },
+    {
+      "id": "1.06",
+      "farm": 1,
+      "plants": "Eastern redbud 1.5-3\" LTD 3\", Appalacian Redbud (5) here 2\"",
+      "empty": false,
+      "tokens": [
+        "eastern",
+        "redbud",
+        "appalacian"
+      ]
+    },
+    {
+      "id": "1.07",
+      "farm": 1,
+      "plants": "Eastern redbud 1.5-2\", Kwanzan Cherry - S23 1.5-2\"",
+      "empty": false,
+      "tokens": [
+        "eastern",
+        "redbud",
+        "kwanzan",
+        "cherry"
+      ]
+    },
+    {
+      "id": "1.08",
+      "farm": 1,
+      "plants": "Snow Goose Cherry- 1.5-1.75\", Double Pink Kwanzan- 1.5-2\", 1.5 row legacy Sugar Maple- 1.5-2\",  Gordlina- 6-10' , Brackens Brown Magnolia- NR",
+      "empty": false,
+      "tokens": [
+        "snow",
+        "goose",
+        "cherry",
+        "double",
+        "pink",
+        "kwanzan",
+        "legacy",
+        "sugar",
+        "maple",
+        "gordlina",
+        "brackens",
+        "brown",
+        "magnolia"
+      ]
+    },
+    {
+      "id": "1.09",
+      "farm": 1,
+      "plants": "American Green Leaf Holly (7) left 7-10', Foster Holly 9-14', Brodie Juniper (4) 6-8 (1)17' (1) 15'",
+      "empty": false,
+      "tokens": [
+        "american",
+        "green",
+        "leaf",
+        "holly",
+        "foster",
+        "brodie",
+        "juniper"
+      ]
+    },
+    {
+      "id": "1.10",
+      "farm": 1,
+      "plants": "Robin Red Holly-6-8'",
+      "empty": false,
+      "tokens": [
+        "robin",
+        "red",
+        "holly"
+      ]
+    },
+    {
+      "id": "1.11",
+      "farm": 1,
+      "plants": "Celebration Maple 1/2 row- 2.75-3.25\", Red Maple- NR S23 Marty, Eastern Redbud- 1.5-2.5\", Slender Siloutte Sweetgum- LTD 3-3.5\"  (1)5\" (1)6.5\", Arnold Tulip Poplar 3-5.5\", Tulip Poplar- 2-4.75\"",
+      "empty": false,
+      "tokens": [
+        "celebration",
+        "maple",
+        "red",
+        "marty",
+        "eastern",
+        "redbud",
+        "slender",
+        "siloutte",
+        "sweetgum",
+        "arnold",
+        "tulip",
+        "poplar"
+      ]
+    },
+    {
+      "id": "1.12",
+      "farm": 1,
+      "plants": "October Glory Maple -Marty- 1.5-2\"",
+      "empty": false,
+      "tokens": [
+        "october",
+        "glory",
+        "maple",
+        "marty"
+      ]
+    },
+    {
+      "id": "1.13",
+      "farm": 1,
+      "plants": "Ivory Silk Lilac 3.75-6\", Yellowwood- (8)1.5-2\", October Glory Maple- 3-4\", Crimson Sunset Maple- NR, Fall Fiesta Sugar Maple- 1.5\" NR, Greenspire Linden- NR, Autumn Treasure Hophornbeam- NR,",
+      "empty": false,
+      "tokens": [
+        "ivory",
+        "silk",
+        "lilac",
+        "yellowwood",
+        "october",
+        "glory",
+        "maple",
+        "crimson",
+        "sunset",
+        "fall",
+        "fiesta",
+        "sugar",
+        "greenspire",
+        "linden",
+        "autumn",
+        "treasure",
+        "hophornbeam"
+      ]
+    },
+    {
+      "id": "1.14",
+      "farm": 1,
+      "plants": "October Glory (1)5.5\" , Tupelo Tower Black Gum- (3) Skinny Genes Oak- 3.5-4.5\" , FlashFire Sugar-2.5-4.5\", Autumn Fest Sugar Maple- 3-3.5\" (1) 5\", Fall Fiesta Sugar Maple-3.5-5\"",
+      "empty": false,
+      "tokens": [
+        "october",
+        "glory",
+        "tupelo",
+        "tower",
+        "black",
+        "gum",
+        "skinny",
+        "genes",
+        "oak",
+        "flashfire",
+        "sugar",
+        "autumn",
+        "fest",
+        "maple",
+        "fall",
+        "fiesta"
+      ]
+    },
+    {
+      "id": "1.15",
+      "farm": 1,
+      "plants": "Redpointe Maple- 3-6\"",
+      "empty": false,
+      "tokens": [
+        "redpointe",
+        "maple"
+      ]
+    },
+    {
+      "id": "1.16",
+      "farm": 1,
+      "plants": "Autumn Blaze Maple- 7-9\"",
+      "empty": false,
+      "tokens": [
+        "autumn",
+        "blaze",
+        "maple"
+      ]
+    },
+    {
+      "id": "1.17",
+      "farm": 1,
+      "plants": "OPEN",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "1.18",
+      "farm": 1,
+      "plants": "D.D. Blanchard Magnolia-   only a few left 14-15'",
+      "empty": false,
+      "tokens": [
+        "blanchard",
+        "magnolia"
+      ]
+    },
+    {
+      "id": "1.19",
+      "farm": 1,
+      "plants": "Kentucky Coffee Tree - 1.5-3\", LTD 3\"",
+      "empty": false,
+      "tokens": [
+        "kentucky",
+        "coffee",
+        "tree"
+      ]
+    },
+    {
+      "id": "1.20",
+      "farm": 1,
+      "plants": "D.D.  Blanchard 10-12', Kay Parris Magnolia-  6-12', LTD 6-9'",
+      "empty": false,
+      "tokens": [
+        "blanchard",
+        "kay",
+        "parris",
+        "magnolia"
+      ]
+    },
+    {
+      "id": "1.21",
+      "farm": 1,
+      "plants": "Green Spire Linden- S23 NR , 3/4 row Forest Fire Blackgum- 1.5-2.5\",  Serviceberry- MT 6-7' LTD",
+      "empty": false,
+      "tokens": [
+        "green",
+        "spire",
+        "linden",
+        "forest",
+        "fire",
+        "blackgum",
+        "serviceberry"
+      ]
+    },
+    {
+      "id": "1.22",
+      "farm": 1,
+      "plants": "Forest Fire Black Gum Sp23- 1.5-2.5\", rest of block Wildfire Black Gum- 1.5\" NR",
+      "empty": false,
+      "tokens": [
+        "forest",
+        "fire",
+        "black",
+        "gum",
+        "wildfire"
+      ]
+    },
+    {
+      "id": "1.23",
+      "farm": 1,
+      "plants": "Hophornbeam Sp23",
+      "empty": false,
+      "tokens": [
+        "hophornbeam"
+      ]
+    },
+    {
+      "id": "1.24",
+      "farm": 1,
+      "plants": "North Pole Arbroviate 7-10' (1) 11' , Thin Man (4) 12-14'",
+      "empty": false,
+      "tokens": [
+        "north",
+        "pole",
+        "arbroviate",
+        "thin",
+        "man"
+      ]
+    },
+    {
+      "id": "1.25",
+      "farm": 1,
+      "plants": "Ruby Slippers Hydrangea- only a couple left- keep? , Lime Light Hydrangea- (2) 5-5.5ft , Cherokee Princess Dogwood HFN.BR.S25, Super Princess Dogwood HFN.BRS25",
+      "empty": false,
+      "tokens": [
+        "ruby",
+        "slippers",
+        "hydrangea",
+        "couple",
+        "keep",
+        "lime",
+        "light",
+        "5ft",
+        "cherokee",
+        "princess",
+        "dogwood",
+        "hfn",
+        "br",
+        "super",
+        "brs25"
+      ]
+    },
+    {
+      "id": "1.26A",
+      "farm": 1,
+      "plants": "Overcup Oak- 1.5\"",
+      "empty": false,
+      "tokens": [
+        "overcup",
+        "oak"
+      ]
+    },
+    {
+      "id": "1.26B",
+      "farm": 1,
+      "plants": "Overcup Oak- 1.5\", American Boxwood- 24-36\", North Pole Arbroviate 9-11',  Camicyphrus 7-10' , Alice Hydrangea- 24\", Limelight Prime Hydrangea- 24\"",
+      "empty": false,
+      "tokens": [
+        "overcup",
+        "oak",
+        "american",
+        "boxwood",
+        "north",
+        "pole",
+        "arbroviate",
+        "camicyphrus",
+        "alice",
+        "hydrangea",
+        "limelight",
+        "prime"
+      ]
+    },
+    {
+      "id": "1.27",
+      "farm": 1,
+      "plants": "Paperbark Maple (1) 6.75\", Blood good Japanese Maple- (1) 4.75\", Glowing Embers Jap- (1) 3\" (1)4\" (1)3.5\",  Dee runk Boxwood- thin-NR",
+      "empty": false,
+      "tokens": [
+        "paperbark",
+        "maple",
+        "blood",
+        "good",
+        "japanese",
+        "glowing",
+        "embers",
+        "jap",
+        "dee",
+        "runk",
+        "boxwood",
+        "thin"
+      ]
+    },
+    {
+      "id": "1.28",
+      "farm": 1,
+      "plants": "Cherokee Brave Dogwood NR, Cherokee Princess NR F22",
+      "empty": false,
+      "tokens": [
+        "cherokee",
+        "brave",
+        "dogwood",
+        "princess",
+        "f22"
+      ]
+    },
+    {
+      "id": "1.29",
+      "farm": 1,
+      "plants": "Cherokee Princess dogwood NR, Super Princess dogwood- 1.5\" NR",
+      "empty": false,
+      "tokens": [
+        "cherokee",
+        "princess",
+        "dogwood",
+        "super"
+      ]
+    },
+    {
+      "id": "1.30",
+      "farm": 1,
+      "plants": "Red Oblesque Beech - (2) 2\", Autumn Treausre Hophornbeam NR- 1.5\", Arnold Tulip Poplar -3-4.5\", Magnificient Maacki- 1.5-2.5\", Winter king Hawthorn-1.5-2\" , Adirondack crabapple- 1.5-1.75\", Pink Cascade Weeping Cherry- 3-4\", Lime light hydrangea Tree form- LTD Heavy & Ex. Heavy",
+      "empty": false,
+      "tokens": [
+        "red",
+        "oblesque",
+        "beech",
+        "autumn",
+        "treausre",
+        "hophornbeam",
+        "arnold",
+        "tulip",
+        "poplar",
+        "magnificient",
+        "maacki",
+        "winter",
+        "king",
+        "hawthorn",
+        "adirondack",
+        "crabapple",
+        "pink",
+        "cascade",
+        "weeping",
+        "cherry",
+        "lime",
+        "light",
+        "hydrangea",
+        "tree",
+        "form",
+        "heavy",
+        "ex"
+      ]
+    },
+    {
+      "id": "1.31",
+      "farm": 1,
+      "plants": "Emerald Arbroviate 8- 10' , 1/2 Row Jane Magnolia- NR",
+      "empty": false,
+      "tokens": [
+        "emerald",
+        "arbroviate",
+        "jane",
+        "magnolia"
+      ]
+    },
+    {
+      "id": "1.32",
+      "farm": 1,
+      "plants": "Gordlinia- NR, Big Leaf Magnolia Ashi- 6-10' LTD , Bosque Lace Bark Elm-5-7\" , Green Gem Boxwood 24-28\"",
+      "empty": false,
+      "tokens": [
+        "gordlinia",
+        "leaf",
+        "magnolia",
+        "ashi",
+        "bosque",
+        "lace",
+        "bark",
+        "elm",
+        "green",
+        "gem",
+        "boxwood"
+      ]
+    },
+    {
+      "id": "1.33",
+      "farm": 1,
+      "plants": "White Crape Myrtle planted F23- 6-8ft, 1/2 row Deep Pink Crapemyrtle - NR",
+      "empty": false,
+      "tokens": [
+        "white",
+        "crape",
+        "myrtle",
+        "8ft",
+        "deep",
+        "pink",
+        "crapemyrtle"
+      ]
+    },
+    {
+      "id": "1.34",
+      "farm": 1,
+      "plants": "Paperbark Maple- 1.5\" , Persian Parrotia-1.5-2\", Slender Sil. Sweetgum- 3-4.5\", Alle Lacebark elm- NR",
+      "empty": false,
+      "tokens": [
+        "paperbark",
+        "maple",
+        "persian",
+        "parrotia",
+        "slender",
+        "sil",
+        "sweetgum",
+        "alle",
+        "lacebark",
+        "elm"
+      ]
+    },
+    {
+      "id": "1.35",
+      "farm": 1,
+      "plants": "Rotundiloba SweetGum-      Sycamore in wetland- some 3.5-5\"",
+      "empty": false,
+      "tokens": [
+        "rotundiloba",
+        "sweetgum",
+        "sycamore",
+        "wetland",
+        "some"
+      ]
+    },
+    {
+      "id": "1.35B",
+      "farm": 1,
+      "plants": "Cherokee Sweetgum- 3-5.5\"",
+      "empty": false,
+      "tokens": [
+        "cherokee",
+        "sweetgum"
+      ]
+    },
+    {
+      "id": "1.36",
+      "farm": 1,
+      "plants": "Trident Maple- 3-7+\"",
+      "empty": false,
+      "tokens": [
+        "trident",
+        "maple"
+      ]
+    },
+    {
+      "id": "1.37",
+      "farm": 1,
+      "plants": "Green Giant S23- 6-7' , Large Red Maples",
+      "empty": false,
+      "tokens": [
+        "green",
+        "giant",
+        "red",
+        "maples"
+      ]
+    },
+    {
+      "id": "1.38",
+      "farm": 1,
+      "plants": "WETLAND holding yard for Brentwood tree farms- some huge white pine- a few left",
+      "empty": false,
+      "tokens": [
+        "wetland",
+        "holding",
+        "yard",
+        "brentwood",
+        "tree",
+        "farms",
+        "some",
+        "huge",
+        "white",
+        "pine"
+      ]
+    },
+    {
+      "id": "1.39",
+      "farm": 1,
+      "plants": "White Fringe- ST 2-5.5\", (1) MT 10'",
+      "empty": false,
+      "tokens": [
+        "white",
+        "fringe"
+      ]
+    },
+    {
+      "id": "1.40",
+      "farm": 1,
+      "plants": "Cherokee Brave Dogwood 2025 -NR, Green Mountian Boxwood 2025- NR",
+      "empty": false,
+      "tokens": [
+        "cherokee",
+        "brave",
+        "dogwood",
+        "2025",
+        "green",
+        "mountian",
+        "boxwood"
+      ]
+    },
+    {
+      "id": "1.41",
+      "farm": 1,
+      "plants": "Persimmon LTD- 2.5-5\", Beacon Oak - 2.5-3\", Fastigata Euro Hornbeam- 2-3.25\"",
+      "empty": false,
+      "tokens": [
+        "persimmon",
+        "beacon",
+        "oak",
+        "fastigata",
+        "euro",
+        "hornbeam"
+      ]
+    },
+    {
+      "id": "1.42",
+      "farm": 1,
+      "plants": "American Hornbeam Skylark-(25) 1.5-2.5\" LTD , Frans Fontaine Hornbeam- 3.5-4\", Fastigiata Euro Hornbeam 2.75-4\",  Green Sleeves Dogwood- 1.5-3\" LTD 3\"",
+      "empty": false,
+      "tokens": [
+        "american",
+        "hornbeam",
+        "skylark",
+        "frans",
+        "fontaine",
+        "fastigiata",
+        "euro",
+        "green",
+        "sleeves",
+        "dogwood"
+      ]
+    },
+    {
+      "id": "1.43",
+      "farm": 1,
+      "plants": "Trautman 13-15'  LTD 12',  Slender Siloutte SweetGum S23- Tree Form 2-3\", Celebration Maple- 2.5-3.25\"",
+      "empty": false,
+      "tokens": [
+        "trautman",
+        "slender",
+        "siloutte",
+        "sweetgum",
+        "tree",
+        "form",
+        "celebration",
+        "maple"
+      ]
+    },
+    {
+      "id": "1.44",
+      "farm": 1,
+      "plants": "Jane Magnolia LTD 5-6' , Fall Fiesta Maple- 1.5-1.75\", Crimson Sunset Maple- 1.5-2\" LTD 2\", Fort Mcnair Horsechesnut Buckeye - 1.5\" whole block S23",
+      "empty": false,
+      "tokens": [
+        "jane",
+        "magnolia",
+        "fall",
+        "fiesta",
+        "maple",
+        "crimson",
+        "sunset",
+        "fort",
+        "mcnair",
+        "horsechesnut",
+        "buckeye",
+        "whole"
+      ]
+    },
+    {
+      "id": "1.45",
+      "farm": 1,
+      "plants": "Densi Yew - LTD 18-20\", Hicksii Yew- 28-48\", Kasura Seiryu Japanese Maple (4) 2\" (4-6')",
+      "empty": false,
+      "tokens": [
+        "densi",
+        "yew",
+        "hicksii",
+        "kasura",
+        "seiryu",
+        "japanese",
+        "maple"
+      ]
+    },
+    {
+      "id": "1.46",
+      "farm": 1,
+      "plants": "Sprinter Boxwood 18-36\" LTD",
+      "empty": false,
+      "tokens": [
+        "sprinter",
+        "boxwood"
+      ]
+    },
+    {
+      "id": "1.47",
+      "farm": 1,
+      "plants": "Bowling Ball Arbroviate (4) left- keeping, Winter Gem F23- NR, North Pole Arbroviate - 10-12'",
+      "empty": false,
+      "tokens": [
+        "bowling",
+        "ball",
+        "arbroviate",
+        "keeping",
+        "winter",
+        "gem",
+        "north",
+        "pole"
+      ]
+    },
+    {
+      "id": "1.48",
+      "farm": 1,
+      "plants": "Fastiagata Horbeam- 1.5\", Paperbark Maple- NR, Ginko-NR , American Smoke Tree -2-4\"",
+      "empty": false,
+      "tokens": [
+        "fastiagata",
+        "horbeam",
+        "paperbark",
+        "maple",
+        "ginko",
+        "american",
+        "smoke",
+        "tree"
+      ]
+    },
+    {
+      "id": "1.49",
+      "farm": 1,
+      "plants": "European Hornbeam NR behind green smoke, White Fringe - ST 1.5-2.25\", MT- LTD 6-10' , Persian Parrotia- LTD 1.5-2\" , Winterberry Berry Poppins (male- no berries)  24-36\", (Female w/ berry) 36-72\", North Pole Arb-6-10' would let fill in",
+      "empty": false,
+      "tokens": [
+        "european",
+        "hornbeam",
+        "behind",
+        "green",
+        "smoke",
+        "white",
+        "fringe",
+        "persian",
+        "parrotia",
+        "winterberry",
+        "berry",
+        "poppins",
+        "male",
+        "no",
+        "berries",
+        "female",
+        "north",
+        "pole",
+        "arb",
+        "would",
+        "let",
+        "fill"
+      ]
+    },
+    {
+      "id": "1.50",
+      "farm": 1,
+      "plants": "Chinese White Fringe (25) left 1.5-3\" (1) 3.75\" , Cherokee Princess Dogwood- LTD, Scarlett Fire Dogwood - (15) left 1.5-3.75\"",
+      "empty": false,
+      "tokens": [
+        "chinese",
+        "white",
+        "fringe",
+        "cherokee",
+        "princess",
+        "dogwood",
+        "scarlett",
+        "fire"
+      ]
+    },
+    {
+      "id": "1.51",
+      "farm": 1,
+      "plants": "Limelight Hydrangea (1) 10',  Winter Green Boxwood- LTD 24-30\", Densi Yew- LTD 18-30\", Hicksii Yew 24-48\"",
+      "empty": false,
+      "tokens": [
+        "limelight",
+        "hydrangea",
+        "winter",
+        "green",
+        "boxwood",
+        "densi",
+        "yew",
+        "hicksii"
+      ]
+    },
+    {
+      "id": "1.52",
+      "farm": 1,
+      "plants": "American White Fringe- LTD ST- 1.5\", MT 8-9' , Emerald Arbroviate (2) 4-5', Dee Runk Boxwood - (14) 26-36\", Sprinter 24-30\", White Pine-NR",
+      "empty": false,
+      "tokens": [
+        "american",
+        "white",
+        "fringe",
+        "emerald",
+        "arbroviate",
+        "dee",
+        "runk",
+        "boxwood",
+        "sprinter",
+        "pine"
+      ]
+    },
+    {
+      "id": "1.53",
+      "farm": 1,
+      "plants": "American Hornbeam- (1) 4\" (1) 3\" (1) 6\" , Akebono Cherry 2-6\", Okame- LTD 2-2.5\", Snowgoose- 3-4\", Zelkova 2.5-4\" , Princeton Elm 5-5.5\"",
+      "empty": false,
+      "tokens": [
+        "american",
+        "hornbeam",
+        "akebono",
+        "cherry",
+        "okame",
+        "snowgoose",
+        "zelkova",
+        "princeton",
+        "elm"
+      ]
+    },
+    {
+      "id": "1.54",
+      "farm": 1,
+      "plants": "Leyland Cyrpess- LTD 7-11', Forever Goldie Arbroviate- 24-36\", Gold Rider Yellow Leyland Cypress 5-7' , Star power Juniper- 6-10', Emerald Arbroviate- 7-10', Jan gold Arbroviate 7-10', North Pole-",
+      "empty": false,
+      "tokens": [
+        "leyland",
+        "cyrpess",
+        "forever",
+        "goldie",
+        "arbroviate",
+        "gold",
+        "rider",
+        "yellow",
+        "cypress",
+        "star",
+        "power",
+        "juniper",
+        "emerald",
+        "jan",
+        "north",
+        "pole"
+      ]
+    },
+    {
+      "id": "1.55",
+      "farm": 1,
+      "plants": "D.D. Blanchard Magnolia 8-12', Taylor Juniper 7-11', Trautman Juniper- 6-10', Snow Queen Hydrangea LTD maybe take out what's left.",
+      "empty": false,
+      "tokens": [
+        "blanchard",
+        "magnolia",
+        "taylor",
+        "juniper",
+        "trautman",
+        "snow",
+        "queen",
+        "hydrangea",
+        "take",
+        "out",
+        "what"
+      ]
+    },
+    {
+      "id": "1.56",
+      "farm": 1,
+      "plants": "American Hornbeam NR, Oakland Holly- 6-7' , Foster Holly- 7-12', American Holly LTD 10'",
+      "empty": false,
+      "tokens": [
+        "american",
+        "hornbeam",
+        "oakland",
+        "holly",
+        "foster"
+      ]
+    },
+    {
+      "id": "1.57",
+      "farm": 1,
+      "plants": "Emerald Arb F25 NR, Little Giant F25, Brandywine Maple F25 NR, BOBO Hydrangea F25 NR, Snow Queen Hydrangea F25 N,   Green Mountain Boxwood- 18-30\" , American Green Leaf Holly- LTD",
+      "empty": false,
+      "tokens": [
+        "emerald",
+        "arb",
+        "little",
+        "giant",
+        "brandywine",
+        "maple",
+        "bobo",
+        "hydrangea",
+        "snow",
+        "queen",
+        "green",
+        "mountain",
+        "boxwood",
+        "american",
+        "leaf",
+        "holly"
+      ]
+    },
+    {
+      "id": "1.58",
+      "farm": 1,
+      "plants": "Green Velvet Boxwood- wide and mature but 24\", newly planted North Pole, Green velvet boxwood NR, (2) Deep Pink Crape Myrtle MT 9-10'",
+      "empty": false,
+      "tokens": [
+        "green",
+        "velvet",
+        "boxwood",
+        "north",
+        "pole",
+        "deep",
+        "pink",
+        "crape",
+        "myrtle"
+      ]
+    },
+    {
+      "id": "1.59",
+      "farm": 1,
+      "plants": "S25 Green Gable Blackgum- 1.5, Wildfire Blackgum- 1.5, White Fringe- all NR",
+      "empty": false,
+      "tokens": [
+        "green",
+        "gable",
+        "blackgum",
+        "wildfire",
+        "white",
+        "fringe",
+        "all"
+      ]
+    },
+    {
+      "id": "1.60A",
+      "farm": 1,
+      "plants": "Dura Heat Riverbirch- LTD ST 2.5-3\", (1) 5\", Rotunduloba SweetGum - (8) LTD 2-3\" , Tulip Poplar- (9) 2-4\", Allee Lacebark Elm- (15)  5.75-6.5\", D.D. Blanchard Magnolia- 12-15'",
+      "empty": false,
+      "tokens": [
+        "dura",
+        "heat",
+        "riverbirch",
+        "rotunduloba",
+        "sweetgum",
+        "tulip",
+        "poplar",
+        "allee",
+        "lacebark",
+        "elm",
+        "blanchard",
+        "magnolia"
+      ]
+    },
+    {
+      "id": "1.60B",
+      "farm": 1,
+      "plants": "Carpinus Carolina American Hornbeam- 2-5.5\"",
+      "empty": false,
+      "tokens": [
+        "carpinus",
+        "carolina",
+        "american",
+        "hornbeam"
+      ]
+    },
+    {
+      "id": "1.61",
+      "farm": 1,
+      "plants": "Wildfire Black Gum- S23- LTD 1.5-3\" ,  Arnold Tulip Poplar Marty F23- 2-3\", Bald Cypress- 1.5-2\"",
+      "empty": false,
+      "tokens": [
+        "wildfire",
+        "black",
+        "gum",
+        "arnold",
+        "tulip",
+        "poplar",
+        "marty",
+        "bald",
+        "cypress"
+      ]
+    },
+    {
+      "id": "1.62",
+      "farm": 1,
+      "plants": "New Strongbox Inkberry & Riverbirch ST F25",
+      "empty": false,
+      "tokens": [
+        "new",
+        "strongbox",
+        "inkberry",
+        "riverbirch"
+      ]
+    },
+    {
+      "id": "1.63",
+      "farm": 1,
+      "plants": "Green gable Black Gum - 1.5-3.5\" S23 Marty, Kay Parris F23 NR Jose- 6'",
+      "empty": false,
+      "tokens": [
+        "green",
+        "gable",
+        "black",
+        "gum",
+        "marty",
+        "kay",
+        "parris",
+        "jose"
+      ]
+    },
+    {
+      "id": "1.64",
+      "farm": 1,
+      "plants": "Snowqueen Hydrangea- 24-48\", (2) kinds maple- NR- Marty- planted 2024-2025 - I believe these are October- 1.5-2\"",
+      "empty": false,
+      "tokens": [
+        "snowqueen",
+        "hydrangea",
+        "maple",
+        "marty",
+        "2024",
+        "2025",
+        "believe",
+        "these",
+        "are",
+        "october"
+      ]
+    },
+    {
+      "id": "1.65",
+      "farm": 1,
+      "plants": "OPEN",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "1.66",
+      "farm": 1,
+      "plants": "October Glory Maple- 5-7\",  Legacy Sugar Maple- 3.5-4.5\" a few 2-2.5\" (1) 5\"",
+      "empty": false,
+      "tokens": [
+        "october",
+        "glory",
+        "maple",
+        "legacy",
+        "sugar"
+      ]
+    },
+    {
+      "id": "1.67",
+      "farm": 1,
+      "plants": "Swamp Chestnut  Oak- 2-7\" LTD 2-2.5\"",
+      "empty": false,
+      "tokens": [
+        "swamp",
+        "chestnut",
+        "oak"
+      ]
+    },
+    {
+      "id": "1.68A",
+      "farm": 1,
+      "plants": "Swamp Chesnut Oak 2-7\" LTD 2-2.5\"",
+      "empty": false,
+      "tokens": [
+        "swamp",
+        "chesnut",
+        "oak"
+      ]
+    },
+    {
+      "id": "1.68B",
+      "farm": 1,
+      "plants": "Green Velvet Boxwood- pretty sure- NR",
+      "empty": false,
+      "tokens": [
+        "green",
+        "velvet",
+        "boxwood"
+      ]
+    },
+    {
+      "id": "1.69",
+      "farm": 1,
+      "plants": "Bald Cypress - 1.5-7\", American White Fringe- 1.5-2\", Redpointe Maple- 3-5\" Autumn Gold Ginkgo- 1.5-3.5\"",
+      "empty": false,
+      "tokens": [
+        "bald",
+        "cypress",
+        "american",
+        "white",
+        "fringe",
+        "redpointe",
+        "maple",
+        "autumn",
+        "gold",
+        "ginkgo"
+      ]
+    },
+    {
+      "id": "1.70",
+      "farm": 1,
+      "plants": "Emerald Arbroviate- 6-10', Tulip Poplar - NR S225 1.5-2\", Nuttall Oak- NR S25",
+      "empty": false,
+      "tokens": [
+        "emerald",
+        "arbroviate",
+        "tulip",
+        "poplar",
+        "s225",
+        "nuttall",
+        "oak"
+      ]
+    },
+    {
+      "id": "1.71",
+      "farm": 1,
+      "plants": "Green Gem Boxwood 18-20\", Uprights Grand Blandy Boxwood- LTD 22-26\", Taylor Juniper- 8-10', Trautman Juniper- NR 6-8' , Star power Juniper- 7-10', Nellie R Stevens Holly ALL NR",
+      "empty": false,
+      "tokens": [
+        "green",
+        "gem",
+        "boxwood",
+        "uprights",
+        "grand",
+        "blandy",
+        "taylor",
+        "juniper",
+        "trautman",
+        "star",
+        "power",
+        "nellie",
+        "stevens",
+        "holly",
+        "all"
+      ]
+    },
+    {
+      "id": "1.72",
+      "farm": 1,
+      "plants": "Sprinter Boxwood - 30-36\" LTD 20-24\", Autumn brillance Service Berry Tree Form- 1-1.25\" NR , BrandyWine Maple- 3-5\" , Bur  Oak- 2-4\"",
+      "empty": false,
+      "tokens": [
+        "sprinter",
+        "boxwood",
+        "autumn",
+        "brillance",
+        "service",
+        "berry",
+        "tree",
+        "form",
+        "brandywine",
+        "maple",
+        "bur",
+        "oak"
+      ]
+    },
+    {
+      "id": "1.73",
+      "farm": 1,
+      "plants": "Magnificient Maacki- 2-3 LTD , Ivory Silk Lilac- 1.5-2\" LTD, Kindred Spirit Oak- skinner leaf- 2\" LTD,  Brioti Buckeye- 1.5-2\" LTD, Crimson Sunset Maple- 2\", Lime Light Tree Form- Hvy & Ex Hvy, Legacy Maple- 2-3\", Bonnie & Mike Beacon Oak- lrg leaf close to woods TF- 2-3.25\", Cold Hardy Northern Lites Redbud- LTD- 3\"",
+      "empty": false,
+      "tokens": [
+        "magnificient",
+        "maacki",
+        "ivory",
+        "silk",
+        "lilac",
+        "kindred",
+        "spirit",
+        "oak",
+        "skinner",
+        "leaf",
+        "brioti",
+        "buckeye",
+        "crimson",
+        "sunset",
+        "maple",
+        "lime",
+        "light",
+        "tree",
+        "form",
+        "hvy",
+        "ex",
+        "legacy",
+        "bonnie",
+        "mike",
+        "beacon",
+        "lrg",
+        "close",
+        "woods",
+        "tf",
+        "cold",
+        "hardy",
+        "northern",
+        "lites",
+        "redbud"
+      ]
+    },
+    {
+      "id": "1.74",
+      "farm": 1,
+      "plants": "Kwanzan NR s23 or s24 2-2.25\"",
+      "empty": false,
+      "tokens": [
+        "kwanzan"
+      ]
+    },
+    {
+      "id": "1.75",
+      "farm": 1,
+      "plants": "Weeping Willow F23 Jose - 2-3\"",
+      "empty": false,
+      "tokens": [
+        "weeping",
+        "willow",
+        "jose"
+      ]
+    },
+    {
+      "id": "1.76",
+      "farm": 1,
+      "plants": "Satomi Dogwood-3-4\"  Beacon Oak- (2) LARGE, Purple Crapes (2) left- tagged for color blind customer",
+      "empty": false,
+      "tokens": [
+        "satomi",
+        "dogwood",
+        "beacon",
+        "oak",
+        "purple",
+        "crapes",
+        "tagged",
+        "color",
+        "blind",
+        "customer"
+      ]
+    },
+    {
+      "id": "1.77",
+      "farm": 1,
+      "plants": "Bonnie and Mike' Beacon Oak- FTG 2-3\" , Amur Maacki- 2-4\"",
+      "empty": false,
+      "tokens": [
+        "bonnie",
+        "mike",
+        "beacon",
+        "oak",
+        "amur",
+        "maacki"
+      ]
+    },
+    {
+      "id": "1.78",
+      "farm": 1,
+      "plants": "Legacy Sugar Maple (3 rows) 3-4\" ,  Powder Keg Sugar (1/2 row in middle on side closet to house on hill) 3\" ,  Flashfire Sugar Maple (2.5 rows closest to woods) 2-2.5\"",
+      "empty": false,
+      "tokens": [
+        "legacy",
+        "sugar",
+        "maple",
+        "powder",
+        "keg",
+        "middle",
+        "side",
+        "closet",
+        "house",
+        "hill",
+        "flashfire",
+        "closest",
+        "woods"
+      ]
+    },
+    {
+      "id": "1.79",
+      "farm": 1,
+      "plants": "Satomi Kousa Dogwood- LTD 2-4\"",
+      "empty": false,
+      "tokens": [
+        "satomi",
+        "kousa",
+        "dogwood"
+      ]
+    },
+    {
+      "id": "1.80",
+      "farm": 1,
+      "plants": "Yellowwood- 2-3.5\" LTD 3.5\"",
+      "empty": false,
+      "tokens": [
+        "yellowwood"
+      ]
+    },
+    {
+      "id": "1.81",
+      "farm": 1,
+      "plants": "Paperbark Maple- 1.5-2.5\" (1) 4\" , Potomic Hybrid PawPaw- (6) 1.5-2\", Pink Cascade Weeping Cherry- 1.5-2\", (1) Yellowwod 2.5\", (5) Sarah's Fav Crape Myrtle 5-6.5\"",
+      "empty": false,
+      "tokens": [
+        "paperbark",
+        "maple",
+        "potomic",
+        "hybrid",
+        "pawpaw",
+        "pink",
+        "cascade",
+        "weeping",
+        "cherry",
+        "yellowwod",
+        "sarah",
+        "fav",
+        "crape",
+        "myrtle"
+      ]
+    },
+    {
+      "id": "1.82",
+      "farm": 1,
+      "plants": "OPEN SPACE",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "1.83",
+      "farm": 1,
+      "plants": "Pink Cascade Weeping Cherry- 1.5-2\" , Adirondack Crabapple- NR, Winter King Hawthorne - 1.5\", Fort McNair Horsechestnut- NR, Sky Pencil Holly- LTD 26-36\"-  BloodGood Japanese Maple- 1.5-2\" (1) 3\", Gordlinia 6-10'  , Gold Spire Ginko- NR,",
+      "empty": false,
+      "tokens": [
+        "pink",
+        "cascade",
+        "weeping",
+        "cherry",
+        "adirondack",
+        "crabapple",
+        "winter",
+        "king",
+        "hawthorne",
+        "fort",
+        "mcnair",
+        "horsechestnut",
+        "sky",
+        "pencil",
+        "holly",
+        "bloodgood",
+        "japanese",
+        "maple",
+        "gordlinia",
+        "gold",
+        "spire",
+        "ginko"
+      ]
+    },
+    {
+      "id": "1.84",
+      "farm": 1,
+      "plants": "Eastern Redbud MT (5) here, Goldspire Ginko- NR, Gordlinia- 6-10', Paperbark Maple- 1.5-1.75\", Trident Maple- 2-5\",  RedPointe Maple 3-5\", Glowing Embers Japanese Maple- 1.5-2\"",
+      "empty": false,
+      "tokens": [
+        "eastern",
+        "redbud",
+        "goldspire",
+        "ginko",
+        "gordlinia",
+        "paperbark",
+        "maple",
+        "trident",
+        "redpointe",
+        "glowing",
+        "embers",
+        "japanese"
+      ]
+    },
+    {
+      "id": "1.85",
+      "farm": 1,
+      "plants": "Milky Way Kouse Dogwood- 1.5-2.25\", Paperbark Maple- NR, Moonglow Magnolia  ST- 1.5-2.5\", MT- 8-12', Southern Catalpa- LTD- 2-5\"",
+      "empty": false,
+      "tokens": [
+        "milky",
+        "way",
+        "kouse",
+        "dogwood",
+        "paperbark",
+        "maple",
+        "moonglow",
+        "magnolia",
+        "southern",
+        "catalpa"
+      ]
+    },
+    {
+      "id": "1.86",
+      "farm": 1,
+      "plants": "Tayukiama (weeper) Japanese Maple-  , Emperor 1 (red) Jap Maple- 2-3\", Glowing Embers (Green) Jap Maple- 2-5\", Forest Pansy Redbud S26 NR, American Hornbeam S26 NR, Greenspire Linden S26 NR, Green Velvet Boxwoods S26 NR",
+      "empty": false,
+      "tokens": [
+        "tayukiama",
+        "weeper",
+        "japanese",
+        "maple",
+        "emperor",
+        "red",
+        "jap",
+        "glowing",
+        "embers",
+        "green",
+        "forest",
+        "pansy",
+        "redbud",
+        "s26",
+        "american",
+        "hornbeam",
+        "greenspire",
+        "linden",
+        "velvet",
+        "boxwoods"
+      ]
+    },
+    {
+      "id": "1.87",
+      "farm": 1,
+      "plants": "Powder Keg Sugar Maple-3-3.5\" , Autumn Fest Sugar Maple- LTD 2-3\" , Armstrong Gold Maple- 2.5-3.5\" ,Native Flame American Hornbeam- 2-3\" , RedPointe Maple- 3.5-5\", (1) 3\" Paperbark Maple, (1) 8\" Chinquapin Oak?",
+      "empty": false,
+      "tokens": [
+        "powder",
+        "keg",
+        "sugar",
+        "maple",
+        "autumn",
+        "fest",
+        "armstrong",
+        "gold",
+        "native",
+        "flame",
+        "american",
+        "hornbeam",
+        "redpointe",
+        "paperbark",
+        "chinquapin",
+        "oak"
+      ]
+    },
+    {
+      "id": "1.88",
+      "farm": 1,
+      "plants": "Bosque Lacebark Elm- 3-6\" ,  Espresso Kentucky Coffee Tree- LTD- 1-1.5\", Prairie centinal Hackberry- (3) 3.5-4,  1/2 row Princeton Elm- 4-6\"",
+      "empty": false,
+      "tokens": [
+        "bosque",
+        "lacebark",
+        "elm",
+        "espresso",
+        "kentucky",
+        "coffee",
+        "tree",
+        "prairie",
+        "centinal",
+        "hackberry",
+        "princeton"
+      ]
+    },
+    {
+      "id": "1.89",
+      "farm": 1,
+      "plants": "Arnold Tulip Poplar- 5-7\" ,Glenleven American Linden LTD- 2-3.5\" , Slender Siloutte Sweetgum- TF- 3-5\", Seedling sweetgum, Tulip Poplar- 3\"",
+      "empty": false,
+      "tokens": [
+        "arnold",
+        "tulip",
+        "poplar",
+        "glenleven",
+        "american",
+        "linden",
+        "slender",
+        "siloutte",
+        "sweetgum",
+        "tf",
+        "seedling"
+      ]
+    },
+    {
+      "id": "1.90",
+      "farm": 1,
+      "plants": "Craderversuvius (KV) Plum- (4) left 3-5\", Ivory Silk Lilac- 5-7\", Slender Siloutte Sweetgum TF- 3-5\" , Brandywine Maple-4-4.5\" ,  Eastern Redbud (4) 4.5-6\", (4) 1.5-2\"",
+      "empty": false,
+      "tokens": [
+        "craderversuvius",
+        "kv",
+        "plum",
+        "ivory",
+        "silk",
+        "lilac",
+        "slender",
+        "siloutte",
+        "sweetgum",
+        "tf",
+        "brandywine",
+        "maple",
+        "eastern",
+        "redbud"
+      ]
+    },
+    {
+      "id": "1.91",
+      "farm": 1,
+      "plants": "Royal Star Magnolia (6) 6-8', Ann Magnolia- LTD,  Sky Pencil Holly- (2) 9-10, (3) 4-5' , Moonglow Magnolia ST 2-3.5\", MT- 10-14' , Berry Poppins 24-42\", Gem Box Inkberry- LTD 24-54\", Berry Poppins Winter Berry- 24-36\"",
+      "empty": false,
+      "tokens": [
+        "royal",
+        "star",
+        "magnolia",
+        "ann",
+        "sky",
+        "pencil",
+        "holly",
+        "moonglow",
+        "berry",
+        "poppins",
+        "gem",
+        "box",
+        "inkberry",
+        "winter"
+      ]
+    },
+    {
+      "id": "1.92",
+      "farm": 1,
+      "plants": "Pragense Viburnum- only (5) here 24-30\", Berry Poppins- 24\" , Jane Magnolia- 6'",
+      "empty": false,
+      "tokens": [
+        "pragense",
+        "viburnum",
+        "berry",
+        "poppins",
+        "jane",
+        "magnolia"
+      ]
+    },
+    {
+      "id": "1.93",
+      "farm": 1,
+      "plants": "Moonglow Magnolia ST 1.5-3\", LTD MT 10-14', Praire Fire Crabapple (2) 3\" & 4\" , 1/2 row Autumn Blaze Maple- NR (marty)- 2-2.5\", Arnold Tulip Pop- 2.5, 1/2 row Royal Star Magnolia",
+      "empty": false,
+      "tokens": [
+        "moonglow",
+        "magnolia",
+        "praire",
+        "fire",
+        "crabapple",
+        "autumn",
+        "blaze",
+        "maple",
+        "marty",
+        "arnold",
+        "tulip",
+        "pop",
+        "royal",
+        "star"
+      ]
+    },
+    {
+      "id": "1.94",
+      "farm": 1,
+      "plants": "Autumn Blaze Maple- Marty- 2-2.5\", Legacy Sugar Maple-(7)here 4-5.5\" , Zelkova- 5-6.75\", American Yellowood- 1.5-2.25\", Akebono Cherry- (1) left 4.25\", Freedom Boxwood S25- NR, Mr. Bowling Ball Arb- NR, Princeton Sentry Ginkgo S25 NR",
+      "empty": false,
+      "tokens": [
+        "autumn",
+        "blaze",
+        "maple",
+        "marty",
+        "legacy",
+        "sugar",
+        "zelkova",
+        "american",
+        "yellowood",
+        "akebono",
+        "cherry",
+        "freedom",
+        "boxwood",
+        "mr",
+        "bowling",
+        "ball",
+        "arb",
+        "princeton",
+        "sentry",
+        "ginkgo"
+      ]
+    },
+    {
+      "id": "1.95",
+      "farm": 1,
+      "plants": "Steeple Chase Arbroviate- 6-8' , Brodie Juniper- 6-10 , OPEN SPACE",
+      "empty": false,
+      "tokens": [
+        "steeple",
+        "chase",
+        "arbroviate",
+        "brodie",
+        "juniper",
+        "open",
+        "space"
+      ]
+    },
+    {
+      "id": "1.96",
+      "farm": 1,
+      "plants": "Seedling Sugar Maple- 2.5-3.75\", 2 rows Green Velvet Boxwood- 18-24\", Winter green Boxwood- 14-30\"",
+      "empty": false,
+      "tokens": [
+        "seedling",
+        "sugar",
+        "maple",
+        "green",
+        "velvet",
+        "boxwood",
+        "winter"
+      ]
+    },
+    {
+      "id": "1.97",
+      "farm": 1,
+      "plants": "Cornus Florida- Cherokee Princess (1) 3.25\", Ruby Slippers Oakleaf Hydrangea- (7) 18\", 1/s row Limelight hydrangea  24-42\"",
+      "empty": false,
+      "tokens": [
+        "cornus",
+        "florida",
+        "cherokee",
+        "princess",
+        "ruby",
+        "slippers",
+        "oakleaf",
+        "hydrangea",
+        "limelight"
+      ]
+    },
+    {
+      "id": "1.98",
+      "farm": 1,
+      "plants": "Sweetbay Magnolia- 6-9' , Jane Magnolia- 6-7', Royal Star Magnolia 4-5'",
+      "empty": false,
+      "tokens": [
+        "sweetbay",
+        "magnolia",
+        "jane",
+        "royal",
+        "star"
+      ]
+    },
+    {
+      "id": "1.99",
+      "farm": 1,
+      "plants": "North Pole Arbroviate 6-9' LTD skinny, American Pillar 7-11', Tater Tot 24\"",
+      "empty": false,
+      "tokens": [
+        "north",
+        "pole",
+        "arbroviate",
+        "skinny",
+        "american",
+        "pillar",
+        "tater",
+        "tot"
+      ]
+    },
+    {
+      "id": "1.100",
+      "farm": 1,
+      "plants": "Oakleaf Hydrangeas- 24-36\",  Limelight Hydrangea- 24-36\"",
+      "empty": false,
+      "tokens": [
+        "oakleaf",
+        "hydrangeas",
+        "limelight",
+        "hydrangea"
+      ]
+    },
+    {
+      "id": "1.101",
+      "farm": 1,
+      "plants": "Densi & Hicksii Yew- NR, North Pole- NR, Tater Tot - NR, Limelight Hydrangea - 36-54\"",
+      "empty": false,
+      "tokens": [
+        "densi",
+        "hicksii",
+        "yew",
+        "north",
+        "pole",
+        "tater",
+        "tot",
+        "limelight",
+        "hydrangea"
+      ]
+    },
+    {
+      "id": "1.102",
+      "farm": 1,
+      "plants": "North Pole- 6-7', American Pillar-7-11', Sprinter Boxwood- 24\"",
+      "empty": false,
+      "tokens": [
+        "north",
+        "pole",
+        "american",
+        "pillar",
+        "sprinter",
+        "boxwood"
+      ]
+    },
+    {
+      "id": "1.103",
+      "farm": 1,
+      "plants": "Armstrong Gold Maple- 2.5-5.5\" (3) Maackia , Yoshino Cherry- TERESA SMITH BLOCK, Independent Boxwood- NR",
+      "empty": false,
+      "tokens": [
+        "armstrong",
+        "gold",
+        "maple",
+        "maackia",
+        "yoshino",
+        "cherry",
+        "teresa",
+        "smith",
+        "independent",
+        "boxwood"
+      ]
+    },
+    {
+      "id": "1.104",
+      "farm": 1,
+      "plants": "RedPointe Maple 3-6.75\"",
+      "empty": false,
+      "tokens": [
+        "redpointe",
+        "maple"
+      ]
+    },
+    {
+      "id": "1.105",
+      "farm": 1,
+      "plants": "Densi Yew F25 NR, Taylor Juniper F25 NR, American Hornbeam F25 NR, Pin Oak S23 2-2.5\", Chinese Pistache S23- 2-2.75\"",
+      "empty": false,
+      "tokens": [
+        "densi",
+        "yew",
+        "taylor",
+        "juniper",
+        "american",
+        "hornbeam",
+        "pin",
+        "oak",
+        "chinese",
+        "pistache"
+      ]
+    },
+    {
+      "id": "1.106",
+      "farm": 1,
+      "plants": "Natchez Crape Myrtle S25 NR, Black Cherry S25 NR, Blue Arrow Juniper s25NR, Fireball Burning Bush S25 NR, Pink Lemonade Blueberry S25 NR,",
+      "empty": false,
+      "tokens": [
+        "natchez",
+        "crape",
+        "myrtle",
+        "black",
+        "cherry",
+        "blue",
+        "arrow",
+        "juniper",
+        "s25nr",
+        "fireball",
+        "burning",
+        "bush",
+        "pink",
+        "lemonade",
+        "blueberry"
+      ]
+    },
+    {
+      "id": "1.107",
+      "farm": 1,
+      "plants": "Oakland Holly - 6-9' , Weeping White Pine- 8-10' , Varder Valley Boxwood- NR s25 (james),  Acadiana Holly 6-8'",
+      "empty": false,
+      "tokens": [
+        "oakland",
+        "holly",
+        "weeping",
+        "white",
+        "pine",
+        "varder",
+        "valley",
+        "boxwood",
+        "james",
+        "acadiana"
+      ]
+    },
+    {
+      "id": "1.108",
+      "farm": 1,
+      "plants": "Leyland Cypress S25 NR, Steeplechase S25 NR",
+      "empty": false,
+      "tokens": [
+        "leyland",
+        "cypress",
+        "steeplechase"
+      ]
+    },
+    {
+      "id": "1.109",
+      "farm": 1,
+      "plants": "Asculus Parva Red Buckeye- 1.5-2.75\", Ruby Slippers Hydrangea- 18-24\", Sourwood LTD- ST- 1.5-2\", MT- 7-10',  Look like Weeping White Pine- 6-8' thin",
+      "empty": false,
+      "tokens": [
+        "asculus",
+        "parva",
+        "red",
+        "buckeye",
+        "ruby",
+        "slippers",
+        "hydrangea",
+        "sourwood",
+        "look",
+        "like",
+        "weeping",
+        "white",
+        "pine",
+        "thin"
+      ]
+    },
+    {
+      "id": "1.110",
+      "farm": 1,
+      "plants": "Zelkova 3-4.5\"",
+      "empty": false,
+      "tokens": [
+        "zelkova"
+      ]
+    },
+    {
+      "id": "1.111",
+      "farm": 1,
+      "plants": "American Yellowwood- 1.5-2.25\", Persian Perrotia- 1.5-3\"",
+      "empty": false,
+      "tokens": [
+        "american",
+        "yellowwood",
+        "persian",
+        "perrotia"
+      ]
+    },
+    {
+      "id": "1.112",
+      "farm": 1,
+      "plants": "Carpinus Carolina American Hornbeam- 2-4\"",
+      "empty": false,
+      "tokens": [
+        "carpinus",
+        "carolina",
+        "american",
+        "hornbeam"
+      ]
+    },
+    {
+      "id": "1.113",
+      "farm": 1,
+      "plants": "Wildfire Blackgum- (7) 3-4\", Winterking Hawthorne- 2-2.75\" LTD, American Boxwood- LARGE for special projects, Slongenna Magnolia-",
+      "empty": false,
+      "tokens": [
+        "wildfire",
+        "blackgum",
+        "winterking",
+        "hawthorne",
+        "american",
+        "boxwood",
+        "special",
+        "projects",
+        "slongenna",
+        "magnolia"
+      ]
+    },
+    {
+      "id": "1.114",
+      "farm": 1,
+      "plants": "Skyline Honey Locust- 2-4\"  Nellie R Steven S23 NR,  Jane Magnolia- 6-7', Kay Parris Maganolia- NR",
+      "empty": false,
+      "tokens": [
+        "skyline",
+        "honey",
+        "locust",
+        "nellie",
+        "steven",
+        "jane",
+        "magnolia",
+        "kay",
+        "parris",
+        "maganolia"
+      ]
+    },
+    {
+      "id": "1.115",
+      "farm": 1,
+      "plants": "Dee Runk Boxwood- 48\" , Star power Juniper- 6-8', Taylor Juniper- 6-8' , Purple Smoke Tree- 7-10' , Pragense Viburnum- 42-54\" LTD 24\", Sky Pencil Holly- 26-36\", Dense Yew- (5) here NR, Green Velvet Boxwood- 24\"  but mature and wide",
+      "empty": false,
+      "tokens": [
+        "dee",
+        "runk",
+        "boxwood",
+        "star",
+        "power",
+        "juniper",
+        "taylor",
+        "purple",
+        "smoke",
+        "tree",
+        "pragense",
+        "viburnum",
+        "sky",
+        "pencil",
+        "holly",
+        "dense",
+        "yew",
+        "green",
+        "velvet"
+      ]
+    },
+    {
+      "id": "1.116",
+      "farm": 1,
+      "plants": "Emerald Arbroviate- 7-10' (1) 13' North Pole , LimeLight  Hydrangea- 24-54\" , Cherry Laurel- LTD 6-10',  Little Gem- LTD 6-10'",
+      "empty": false,
+      "tokens": [
+        "emerald",
+        "arbroviate",
+        "north",
+        "pole",
+        "limelight",
+        "hydrangea",
+        "cherry",
+        "laurel",
+        "little",
+        "gem"
+      ]
+    },
+    {
+      "id": "1.117",
+      "farm": 1,
+      "plants": "Taylor Juniper S26 NR, Gingko S26 NR, Sprinter Boxwood s26 NR, Little Arbs S26 NR, Franklinia S26 NR, Princeton Sentry Ginkgo S26 NR,",
+      "empty": false,
+      "tokens": [
+        "taylor",
+        "juniper",
+        "s26",
+        "gingko",
+        "sprinter",
+        "boxwood",
+        "little",
+        "arbs",
+        "franklinia",
+        "princeton",
+        "sentry",
+        "ginkgo"
+      ]
+    },
+    {
+      "id": "1.118",
+      "farm": 1,
+      "plants": "PawPaw- S26 NR, Butterfly Magnolia S26 NR, Burkii Juniper S26 NR, Newly Planted Hornbeam? S26",
+      "empty": false,
+      "tokens": [
+        "pawpaw",
+        "s26",
+        "butterfly",
+        "magnolia",
+        "burkii",
+        "juniper",
+        "hornbeam"
+      ]
+    },
+    {
+      "id": "1.119",
+      "farm": 1,
+      "plants": "Yellowbird Magnolia- 6-12', D.D. Blanchard- 6-8'', Kay Parris- 6-7',  American Green Smoketree- 2-3\",Nellie R Stevens Holly- NR, Burning Bush- NR, YEW- NR,  Incrediball Hydrangea LTD (6) 38-48\" KEEP , (2) Oakleaf Hydrangea 24-36\"",
+      "empty": false,
+      "tokens": [
+        "yellowbird",
+        "magnolia",
+        "blanchard",
+        "kay",
+        "parris",
+        "american",
+        "green",
+        "smoketree",
+        "nellie",
+        "stevens",
+        "holly",
+        "burning",
+        "bush",
+        "yew",
+        "incrediball",
+        "hydrangea",
+        "keep",
+        "oakleaf"
+      ]
+    },
+    {
+      "id": "1.120",
+      "farm": 1,
+      "plants": "Densi Yew- LTD 18-20\", Hicksii Yew- 24-48\", Golden Raintree- 2-4\", American Green Smoke Tree- 2-4, Espresso Kentucky Coffee Tree- 1.5\" NR S25 , Gordlinia- all ST 1.5-1.75 6-10', Bottle Brush Buckeye- NR, American PawPaw- (1) 3.5\", (1) 2\" Sourwood",
+      "empty": false,
+      "tokens": [
+        "densi",
+        "yew",
+        "hicksii",
+        "golden",
+        "raintree",
+        "american",
+        "green",
+        "smoke",
+        "tree",
+        "espresso",
+        "kentucky",
+        "coffee",
+        "gordlinia",
+        "all",
+        "bottle",
+        "brush",
+        "buckeye",
+        "pawpaw",
+        "sourwood"
+      ]
+    },
+    {
+      "id": "1.121",
+      "farm": 1,
+      "plants": "Hicksii Yew 24-54\", Venessa Persian Perodia- 1.5-2.25, Bloodgood Japanese Maple- NR, American Yellowwood- 1.5-2.5\", Ginko- 3-4.5\" , Giant Fuyu Persimon- LTD 6-7\"",
+      "empty": false,
+      "tokens": [
+        "hicksii",
+        "yew",
+        "venessa",
+        "persian",
+        "perodia",
+        "bloodgood",
+        "japanese",
+        "maple",
+        "american",
+        "yellowwood",
+        "ginko",
+        "giant",
+        "fuyu",
+        "persimon"
+      ]
+    },
+    {
+      "id": "1.122",
+      "farm": 1,
+      "plants": "American Yellowwood- 1.5-2.25\" (1) 6.5\",Glowing Embers Japanese Maple- 3-4.75\"",
+      "empty": false,
+      "tokens": [
+        "american",
+        "yellowwood",
+        "glowing",
+        "embers",
+        "japanese",
+        "maple"
+      ]
+    },
+    {
+      "id": "1.123",
+      "farm": 1,
+      "plants": "PawPaw- NR S25, Foster Holly? NR,  Trautman Juniper (Pencil) - 13-14'",
+      "empty": false,
+      "tokens": [
+        "pawpaw",
+        "foster",
+        "holly",
+        "trautman",
+        "juniper",
+        "pencil"
+      ]
+    },
+    {
+      "id": "1.124",
+      "farm": 1,
+      "plants": "Shagbark Hickory- 1.5-3\", Princeton Elm- 2.5-6.5\"",
+      "empty": false,
+      "tokens": [
+        "shagbark",
+        "hickory",
+        "princeton",
+        "elm"
+      ]
+    },
+    {
+      "id": "1.125",
+      "farm": 1,
+      "plants": "Witchhazel- 24-30\" s25, Green Gem Dwarf Boxwood- 18-24\", Upright boxwood- 20-28\" , Star power Juniper - 12-16' LTD 14-16', Trautman Juniper Pencil- 9-12' LTD 9' Unsheared- 8-12' , Taylor Juniper- LTD , White Pine- 11-14'",
+      "empty": false,
+      "tokens": [
+        "witchhazel",
+        "green",
+        "gem",
+        "dwarf",
+        "boxwood",
+        "upright",
+        "star",
+        "power",
+        "juniper",
+        "trautman",
+        "pencil",
+        "unsheared",
+        "taylor",
+        "white",
+        "pine"
+      ]
+    },
+    {
+      "id": "1.126A",
+      "farm": 1,
+      "plants": "Swamp White Oak- 1.5-5\", Willow Oak- 3-5.5\", White Pine-10- 14' , Green Gem Dwarf Boxwood 18-24\" LTD 24-26\" , Leyland Cypress (7) 7-11\", Glowing Embers Japanese Maple- (3) MT 10-12', (4) MT 14-16'",
+      "empty": false,
+      "tokens": [
+        "swamp",
+        "white",
+        "oak",
+        "willow",
+        "pine",
+        "green",
+        "gem",
+        "dwarf",
+        "boxwood",
+        "leyland",
+        "cypress",
+        "glowing",
+        "embers",
+        "japanese",
+        "maple"
+      ]
+    },
+    {
+      "id": "1.126B",
+      "farm": 1,
+      "plants": "Green Giant- NR",
+      "empty": false,
+      "tokens": [
+        "green",
+        "giant"
+      ]
+    },
+    {
+      "id": "1.127",
+      "farm": 1,
+      "plants": "Burkii Juniper- 10-13', Steeple Chase Arbroviate (12) THIN 9-12' , Green Giant here too?- NR",
+      "empty": false,
+      "tokens": [
+        "burkii",
+        "juniper",
+        "steeple",
+        "chase",
+        "arbroviate",
+        "thin",
+        "green",
+        "giant",
+        "too"
+      ]
+    },
+    {
+      "id": "1.128",
+      "farm": 1,
+      "plants": "Burkii Juniper- 9-12', Brodie Juniper- 6-11' , Degroot Spire Arbroviate- 10-12', American Pillar Arbroviate NR",
+      "empty": false,
+      "tokens": [
+        "burkii",
+        "juniper",
+        "brodie",
+        "degroot",
+        "spire",
+        "arbroviate",
+        "american",
+        "pillar"
+      ]
+    },
+    {
+      "id": "1.129",
+      "farm": 1,
+      "plants": "Cryptomyria- LTD 12-14', Lobolly Pine- 7-10'",
+      "empty": false,
+      "tokens": [
+        "cryptomyria",
+        "lobolly",
+        "pine"
+      ]
+    },
+    {
+      "id": "1.130",
+      "farm": 1,
+      "plants": "Green Giant- 6-12',  A couple larger for special projects",
+      "empty": false,
+      "tokens": [
+        "green",
+        "giant",
+        "couple",
+        "larger",
+        "special",
+        "projects"
+      ]
+    },
+    {
+      "id": "1.131",
+      "farm": 1,
+      "plants": "North Pole Arb- 6-10', American Pillar Arb- 12-14' , Camicyphrus- 7-10', Princeton Elm- 4.5-5.5\", Sugar Tyme Crabapple- LTD 2-4\", Little Gem Magnolia- NR,  Brackens Magnolia- NR F23 Marty",
+      "empty": false,
+      "tokens": [
+        "north",
+        "pole",
+        "arb",
+        "american",
+        "pillar",
+        "camicyphrus",
+        "princeton",
+        "elm",
+        "sugar",
+        "tyme",
+        "crabapple",
+        "little",
+        "gem",
+        "magnolia",
+        "brackens",
+        "marty"
+      ]
+    },
+    {
+      "id": "1.132",
+      "farm": 1,
+      "plants": "Princeton Sentry Ginko, Autumn Gold Ginko Whole block- 1.5-5\"",
+      "empty": false,
+      "tokens": [
+        "princeton",
+        "sentry",
+        "ginko",
+        "autumn",
+        "gold",
+        "whole"
+      ]
+    },
+    {
+      "id": "1.133",
+      "farm": 1,
+      "plants": "Milky Way Kousa Dogwood- 1.5-3\"",
+      "empty": false,
+      "tokens": [
+        "milky",
+        "way",
+        "kousa",
+        "dogwood"
+      ]
+    },
+    {
+      "id": "1.134",
+      "farm": 1,
+      "plants": "Scarlet Fire Dogwood- NR, Emerald City Tulip Poplar- 1.5-2\", Satomi Dogwood- NR, Pseduo Camilla- NR, Loblolly Pine 8-9'",
+      "empty": false,
+      "tokens": [
+        "scarlet",
+        "fire",
+        "dogwood",
+        "emerald",
+        "city",
+        "tulip",
+        "poplar",
+        "satomi",
+        "pseduo",
+        "camilla",
+        "loblolly",
+        "pine"
+      ]
+    },
+    {
+      "id": "1.135",
+      "farm": 1,
+      "plants": "Trident Maple- 3-5\", Carolina Silverbell- LTD- 1.5-2\", Chinese Fringetree- NR",
+      "empty": false,
+      "tokens": [
+        "trident",
+        "maple",
+        "carolina",
+        "silverbell",
+        "chinese",
+        "fringetree"
+      ]
+    },
+    {
+      "id": "1.136",
+      "farm": 1,
+      "plants": "Green Vase Zelkova- 2.5-5.5\"",
+      "empty": false,
+      "tokens": [
+        "green",
+        "vase",
+        "zelkova"
+      ]
+    },
+    {
+      "id": "1.137",
+      "farm": 1,
+      "plants": "Kentucky Coffe Tree- 1.5-2\"",
+      "empty": false,
+      "tokens": [
+        "kentucky",
+        "coffe",
+        "tree"
+      ]
+    },
+    {
+      "id": "1.138",
+      "farm": 1,
+      "plants": "Juddii Viburnum (row 1&2) 24-48\", Nantuckett Viburnum (row 2&3) 42-66\", Cayuga Viburnum (row 3&4) 20-36\", Popcorn Viburnum (row 4)- 48-84\", Shasta Viburnum (row 5) 48-84\", Green Trump Viburnum- LTD, Dawn Redwood (full to ground)- PULLED OUT?, Carpinus Betulus- NR",
+      "empty": false,
+      "tokens": [
+        "juddii",
+        "viburnum",
+        "nantuckett",
+        "cayuga",
+        "popcorn",
+        "shasta",
+        "green",
+        "trump",
+        "dawn",
+        "redwood",
+        "full",
+        "ground",
+        "pulled",
+        "out",
+        "carpinus",
+        "betulus"
+      ]
+    },
+    {
+      "id": "1.139",
+      "farm": 1,
+      "plants": "Catawaba Crape Myrtle (PURPLE) F25 or S26 HFN NR, White Hydrangea- 24-36\" No tags, Hopi Crape Myrtle (PINK) Mixed in NR,  WhIte Fringe BUDC NR, Gembox Inkberry NR, White Hydrangea 24-26\" NR, White Crape Myrtle Mixed in",
+      "empty": false,
+      "tokens": [
+        "catawaba",
+        "crape",
+        "myrtle",
+        "purple",
+        "s26",
+        "hfn",
+        "white",
+        "hydrangea",
+        "no",
+        "tags",
+        "hopi",
+        "pink",
+        "mixed",
+        "fringe",
+        "gembox",
+        "inkberry"
+      ]
+    },
+    {
+      "id": "1.140",
+      "farm": 1,
+      "plants": "Moonglow Magnolia ST Bouldin 6-7', Heritage Riverbirch MT Bouldin- 6-8', Tall Heritage Riverbirch ST 10-12', Autumn Blaze Maple NR",
+      "empty": false,
+      "tokens": [
+        "moonglow",
+        "magnolia",
+        "bouldin",
+        "heritage",
+        "riverbirch",
+        "tall",
+        "autumn",
+        "blaze",
+        "maple"
+      ]
+    },
+    {
+      "id": "1.141",
+      "farm": 1,
+      "plants": "Sycamore NR, Slender Sil Sweetgum - Marty NR, Boxwoods- No tags",
+      "empty": false,
+      "tokens": [
+        "sycamore",
+        "slender",
+        "sil",
+        "sweetgum",
+        "marty",
+        "boxwoods",
+        "no",
+        "tags"
+      ]
+    },
+    {
+      "id": "1.142",
+      "farm": 1,
+      "plants": "Sycamore small block- NR",
+      "empty": false,
+      "tokens": [
+        "sycamore"
+      ]
+    },
+    {
+      "id": "1.143",
+      "farm": 1,
+      "plants": "OPEN",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "1.144",
+      "farm": 1,
+      "plants": "OPEN",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "1.145",
+      "farm": 1,
+      "plants": "OPEN",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "1.146",
+      "farm": 1,
+      "plants": "Forest Pansy Redbud- 1.5-2.25\" Eastern Redbud - 1.5-2.75\" F23 Marty",
+      "empty": false,
+      "tokens": [
+        "forest",
+        "pansy",
+        "redbud",
+        "eastern",
+        "marty"
+      ]
+    },
+    {
+      "id": "1.147",
+      "farm": 1,
+      "plants": "Princeton Elm- 2.5-5.75\" (1) 7\" (1) 8\",  Red Maple- (1) 6.5\"",
+      "empty": false,
+      "tokens": [
+        "princeton",
+        "elm",
+        "red",
+        "maple"
+      ]
+    },
+    {
+      "id": "1.148",
+      "farm": 1,
+      "plants": "Yoshino Cherry- LTD 2.5-5\" FOR TERESA SMITH, (2) Kwanzan Cherry 5.5 &4.5\",  Tulip Poplar 2-6.5\", a few Eastern Redbud",
+      "empty": false,
+      "tokens": [
+        "yoshino",
+        "cherry",
+        "teresa",
+        "smith",
+        "kwanzan",
+        "tulip",
+        "poplar",
+        "eastern",
+        "redbud"
+      ]
+    },
+    {
+      "id": "1.149",
+      "farm": 1,
+      "plants": "Princeton Elm- 3-4.5\" (1)6.5\" , Forest Pansy Redbud- LTD 1.5-2\", Eastern Redbud- 1.5-2\",  Snowgoose Cherry- (4) left 3.5-4\", Autumn Blaze Maple- (3) 4\", 5.25\" & 6.25\"",
+      "empty": false,
+      "tokens": [
+        "princeton",
+        "elm",
+        "forest",
+        "pansy",
+        "redbud",
+        "eastern",
+        "snowgoose",
+        "cherry",
+        "autumn",
+        "blaze",
+        "maple"
+      ]
+    },
+    {
+      "id": "1.150",
+      "farm": 1,
+      "plants": "OPEN",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "1.151",
+      "farm": 1,
+      "plants": "Kentucky Coffee Tree- 1.5-2\"",
+      "empty": false,
+      "tokens": [
+        "kentucky",
+        "coffee",
+        "tree"
+      ]
+    },
+    {
+      "id": "1.152",
+      "farm": 1,
+      "plants": "Snowgoose Cherry- 1.5\" s25, Yoshino Cherry- 1.5-2\", Akebono Cherry- 1.5\", Scarlet Fire Dogwood- 2-3\", White Kousa Dogwood- Greensleeves? 1.5-2.5\", Ginkgo- 2-3\"",
+      "empty": false,
+      "tokens": [
+        "snowgoose",
+        "cherry",
+        "yoshino",
+        "akebono",
+        "scarlet",
+        "fire",
+        "dogwood",
+        "white",
+        "kousa",
+        "greensleeves",
+        "ginkgo"
+      ]
+    },
+    {
+      "id": "1.153",
+      "farm": 1,
+      "plants": "Sprinter Boxwood- LTD here, Starpower Juniper- 6-10', Sunvalley Maple- 3-4\", Forest Pansy Redbud LTD- 1.5-2.75\", Eastern Redbud- 1.5-3\"LTD , October Glory Maple- 3-4\"",
+      "empty": false,
+      "tokens": [
+        "sprinter",
+        "boxwood",
+        "starpower",
+        "juniper",
+        "sunvalley",
+        "maple",
+        "forest",
+        "pansy",
+        "redbud",
+        "eastern",
+        "october",
+        "glory"
+      ]
+    },
+    {
+      "id": "1.154",
+      "farm": 1,
+      "plants": "October Glory Maple- 3-4\", 1.2 Rows Shade Master Honey Locust- LTD 2-3.5' \", .5 row Princeton Elm- 4-5.5\"",
+      "empty": false,
+      "tokens": [
+        "october",
+        "glory",
+        "maple",
+        "shade",
+        "master",
+        "honey",
+        "locust",
+        "princeton",
+        "elm"
+      ]
+    },
+    {
+      "id": "1.155",
+      "farm": 1,
+      "plants": "Nellie R Stevens Holly- 6-11ft-  LTD",
+      "empty": false,
+      "tokens": [
+        "nellie",
+        "stevens",
+        "holly",
+        "11ft"
+      ]
+    },
+    {
+      "id": "1.156",
+      "farm": 1,
+      "plants": "Beech- 3-6.5\", Hophornbeam (3) here 3\", 3.5\" & 5.25\"",
+      "empty": false,
+      "tokens": [
+        "beech",
+        "hophornbeam"
+      ]
+    },
+    {
+      "id": "1.157",
+      "farm": 1,
+      "plants": "Nellie R Stevens Holly F23 Jose, Autumn Gold Ginko- 2.75-6\", Willow Oak- 1.5\"",
+      "empty": false,
+      "tokens": [
+        "nellie",
+        "stevens",
+        "holly",
+        "jose",
+        "autumn",
+        "gold",
+        "ginko",
+        "willow",
+        "oak"
+      ]
+    },
+    {
+      "id": "1.158",
+      "farm": 1,
+      "plants": "Sourwood- (2) 2\", Scarlett Oak-NR , Red Oak NR",
+      "empty": false,
+      "tokens": [
+        "sourwood",
+        "scarlett",
+        "oak",
+        "red"
+      ]
+    },
+    {
+      "id": "1.159",
+      "farm": 1,
+      "plants": "Pin Oak- 5-6.5\", White Oak- 1.5-4\" a few larger here",
+      "empty": false,
+      "tokens": [
+        "pin",
+        "oak",
+        "white",
+        "larger"
+      ]
+    },
+    {
+      "id": "1.160",
+      "farm": 1,
+      "plants": "Emerald Arb- newly planted F25, Little Giant Arb F25",
+      "empty": false,
+      "tokens": [
+        "emerald",
+        "arb",
+        "little",
+        "giant"
+      ]
+    },
+    {
+      "id": "1.161",
+      "farm": 1,
+      "plants": "Emerald Arb F25, Little Giant F25, Golden Mop F25, Royal Grace Purple Smoke F25 6-7'",
+      "empty": false,
+      "tokens": [
+        "emerald",
+        "arb",
+        "little",
+        "giant",
+        "golden",
+        "mop",
+        "royal",
+        "grace",
+        "purple",
+        "smoke"
+      ]
+    },
+    {
+      "id": "1.162",
+      "farm": 1,
+      "plants": "Steeplechase Arb F25 NR",
+      "empty": false,
+      "tokens": [
+        "steeplechase",
+        "arb"
+      ]
+    },
+    {
+      "id": "1.163",
+      "farm": 1,
+      "plants": "Swamp White Oak- 2-5\",  Small newly planted oaks here- maybe Nuttall Oak",
+      "empty": false,
+      "tokens": [
+        "swamp",
+        "white",
+        "oak",
+        "oaks",
+        "nuttall"
+      ]
+    },
+    {
+      "id": "1.164",
+      "farm": 1,
+      "plants": "American White Fringe NR, Green Gem or Green Velvet Boxwood here- NR",
+      "empty": false,
+      "tokens": [
+        "american",
+        "white",
+        "fringe",
+        "green",
+        "gem",
+        "velvet",
+        "boxwood"
+      ]
+    },
+    {
+      "id": "1.165",
+      "farm": 1,
+      "plants": "Looks like Deerunk- NR, Yews- NR",
+      "empty": false,
+      "tokens": [
+        "looks",
+        "like",
+        "deerunk",
+        "yews"
+      ]
+    },
+    {
+      "id": "1.166",
+      "farm": 1,
+      "plants": "Autumn Gold Ginko- 1.5-4\"",
+      "empty": false,
+      "tokens": [
+        "autumn",
+        "gold",
+        "ginko"
+      ]
+    },
+    {
+      "id": "1.167",
+      "farm": 1,
+      "plants": "Seedling Ginkgo- NR, Tulip Poplar- 1.5-2.5\"",
+      "empty": false,
+      "tokens": [
+        "seedling",
+        "ginkgo",
+        "tulip",
+        "poplar"
+      ]
+    },
+    {
+      "id": "1.168",
+      "farm": 1,
+      "plants": "Newly Planted Boxwoods- oscar's guys",
+      "empty": false,
+      "tokens": [
+        "boxwoods",
+        "oscar",
+        "guys"
+      ]
+    },
+    {
+      "id": "1.169",
+      "farm": 1,
+      "plants": "American Beech- 2-4\" LTD 3.5-4\", Redpointe Maple- 3-6\", Armstrong Gold Red Maple- 4-5\"",
+      "empty": false,
+      "tokens": [
+        "american",
+        "beech",
+        "redpointe",
+        "maple",
+        "armstrong",
+        "gold",
+        "red"
+      ]
+    },
+    {
+      "id": "1.170",
+      "farm": 1,
+      "plants": "Autumn Brillance Service Berry- ST 1.5-2\" LTD Multi- 6-10' , Newly Planted Red Maples- I think October Glory , Lamaqui Service Berry- ST 1-1.25\" MT 6-10'",
+      "empty": false,
+      "tokens": [
+        "autumn",
+        "brillance",
+        "service",
+        "berry",
+        "red",
+        "maples",
+        "october",
+        "glory",
+        "lamaqui"
+      ]
+    },
+    {
+      "id": "1.171",
+      "farm": 1,
+      "plants": "White Oak- 2-4.5\"",
+      "empty": false,
+      "tokens": [
+        "white",
+        "oak"
+      ]
+    },
+    {
+      "id": "1.172",
+      "farm": 1,
+      "plants": "Regal Prince Oak- NR, Kindred Spirit Oak- NR, Green Gable Blackgum- NR, Emerald City Tulip Poplar- 1.5-2.5\"",
+      "empty": false,
+      "tokens": [
+        "regal",
+        "prince",
+        "oak",
+        "kindred",
+        "spirit",
+        "green",
+        "gable",
+        "blackgum",
+        "emerald",
+        "city",
+        "tulip",
+        "poplar"
+      ]
+    },
+    {
+      "id": "1.173",
+      "farm": 1,
+      "plants": "Cherokee Princess Dogwood NR, Satomi Kousa Dogwood- I believe these are the 1.5-2.25\", 3 rows American Beech 1.5\" NR",
+      "empty": false,
+      "tokens": [
+        "cherokee",
+        "princess",
+        "dogwood",
+        "satomi",
+        "kousa",
+        "believe",
+        "these",
+        "are",
+        "american",
+        "beech"
+      ]
+    },
+    {
+      "id": "1.174",
+      "farm": 1,
+      "plants": "2 Row Chinese White Fringe tokyo Tower - only (2) left 1.5-2\", Slender Siloutte SweetGum FTG- 2.75-4\", Arnold Tulip Poplar- 4-5.5\", (1) Tulip Poplar 6.5\"",
+      "empty": false,
+      "tokens": [
+        "chinese",
+        "white",
+        "fringe",
+        "tokyo",
+        "tower",
+        "slender",
+        "siloutte",
+        "sweetgum",
+        "arnold",
+        "tulip",
+        "poplar"
+      ]
+    },
+    {
+      "id": "1.175",
+      "farm": 1,
+      "plants": "White Fringe Single- LTD- ST  1.5-5.75\", MT- 12-14' LTD, Yoshino Cherry 1.5-2\" LTD 2-2.5\", Akebono Cherry- 1.5-1.75\"",
+      "empty": false,
+      "tokens": [
+        "white",
+        "fringe",
+        "yoshino",
+        "cherry",
+        "akebono"
+      ]
+    },
+    {
+      "id": "1.176",
+      "farm": 1,
+      "plants": "Jan Gold Arbroviate- 6-10', American Pillar Arbroviate- 12-16'",
+      "empty": false,
+      "tokens": [
+        "jan",
+        "gold",
+        "arbroviate",
+        "american",
+        "pillar"
+      ]
+    },
+    {
+      "id": "1.177",
+      "farm": 1,
+      "plants": "American Pillar Arbroviate- 12-16' to tips",
+      "empty": false,
+      "tokens": [
+        "american",
+        "pillar",
+        "arbroviate"
+      ]
+    },
+    {
+      "id": "1.178",
+      "farm": 1,
+      "plants": "Prarie Fire Crabapple- NR, Lobololly Seperators- 7-10', Sugar Tyme Crabapple- LTD 1.5-1.75\" mostly NR, St. Luke's Plum- 1.5-2\", Ivory Silk Lilac- 1.5\" NR",
+      "empty": false,
+      "tokens": [
+        "prarie",
+        "fire",
+        "crabapple",
+        "lobololly",
+        "seperators",
+        "sugar",
+        "tyme",
+        "mostly",
+        "luke",
+        "plum",
+        "ivory",
+        "silk",
+        "lilac"
+      ]
+    },
+    {
+      "id": "1.179",
+      "farm": 1,
+      "plants": "Allee Lacebark Elm 1.5-2\", Tulip Poplar- 1.5-2.5\", Vitex/Chaste Tree- 7-10', Snowgoose Cherry- 1.5\" NR, Ivory Silk Lilac- 1.5\" NR",
+      "empty": false,
+      "tokens": [
+        "allee",
+        "lacebark",
+        "elm",
+        "tulip",
+        "poplar",
+        "vitex",
+        "chaste",
+        "tree",
+        "snowgoose",
+        "cherry",
+        "ivory",
+        "silk",
+        "lilac"
+      ]
+    },
+    {
+      "id": "1.180",
+      "farm": 1,
+      "plants": "Green Giant?",
+      "empty": false,
+      "tokens": [
+        "green",
+        "giant"
+      ]
+    },
+    {
+      "id": "1.181",
+      "farm": 1,
+      "plants": "Riverbirch- only a couple left that are good,",
+      "empty": false,
+      "tokens": [
+        "riverbirch",
+        "couple",
+        "are",
+        "good"
+      ]
+    },
+    {
+      "id": "1.182",
+      "farm": 1,
+      "plants": "Oakland Holly BUDC, Loblolly Pine, Acadiana Holly (middle of block) BUDC, Nellie R Stevens Holly BUDC",
+      "empty": false,
+      "tokens": [
+        "oakland",
+        "holly",
+        "loblolly",
+        "pine",
+        "acadiana",
+        "middle",
+        "nellie",
+        "stevens"
+      ]
+    },
+    {
+      "id": "1.183",
+      "farm": 1,
+      "plants": "Riverbirch LTD LEFT, White Fringe? Green Giant? Nellie R Stevens Holly BUDC",
+      "empty": false,
+      "tokens": [
+        "riverbirch",
+        "white",
+        "fringe",
+        "green",
+        "giant",
+        "nellie",
+        "stevens",
+        "holly"
+      ]
+    },
+    {
+      "id": "1.184",
+      "farm": 1,
+      "plants": "Green Giant? Greenleaf American Holly BUDC, Loblolly Pine, Foster Holly- death, Nellie R Stevens Holly",
+      "empty": false,
+      "tokens": [
+        "green",
+        "giant",
+        "greenleaf",
+        "american",
+        "holly",
+        "loblolly",
+        "pine",
+        "foster",
+        "death",
+        "nellie",
+        "stevens"
+      ]
+    },
+    {
+      "id": "1.185",
+      "farm": 1,
+      "plants": "Green Giant? Pine or Sruce? No Tags",
+      "empty": false,
+      "tokens": [
+        "green",
+        "giant",
+        "pine",
+        "sruce",
+        "no",
+        "tags"
+      ]
+    },
+    {
+      "id": "1.186",
+      "farm": 1,
+      "plants": "Pine or Sruce? No Tags",
+      "empty": false,
+      "tokens": [
+        "pine",
+        "sruce",
+        "no",
+        "tags"
+      ]
+    },
+    {
+      "id": "1.187",
+      "farm": 1,
+      "plants": "Pine or Sruce? No Tags",
+      "empty": false,
+      "tokens": [
+        "pine",
+        "sruce",
+        "no",
+        "tags"
+      ]
+    },
+    {
+      "id": "1.188",
+      "farm": 1,
+      "plants": "Pine or Sruce? No Tags",
+      "empty": false,
+      "tokens": [
+        "pine",
+        "sruce",
+        "no",
+        "tags"
+      ]
+    },
+    {
+      "id": "1.189",
+      "farm": 1,
+      "plants": "Allee Elm- 1.5-2\", Skyline HL- 1.5-2\", Shade Master HL- 1.5-2\", Ruby Slippers Hydrangea- NR, Imperial HL- 1.5-1.75\", Incrediball Stormproof hydrangea- NR",
+      "empty": false,
+      "tokens": [
+        "allee",
+        "elm",
+        "skyline",
+        "hl",
+        "shade",
+        "master",
+        "ruby",
+        "slippers",
+        "hydrangea",
+        "imperial",
+        "incrediball",
+        "stormproof"
+      ]
+    },
+    {
+      "id": "1.190",
+      "farm": 1,
+      "plants": "Hackberry- 2-2.5\", Sky Pencil Holly- (skinny) 24-33\", Small caliper behind Hackberry- ? NR, Allee Elm- 1.5-2\", Princeton Elm 1.5-2.75\", FRONTIER ELM- Looking at liner purchases I think this is it- 2-2.75\"",
+      "empty": false,
+      "tokens": [
+        "hackberry",
+        "sky",
+        "pencil",
+        "holly",
+        "skinny",
+        "caliper",
+        "behind",
+        "allee",
+        "elm",
+        "princeton",
+        "frontier"
+      ]
+    },
+    {
+      "id": "1.191",
+      "farm": 1,
+      "plants": "Limelight Prime Hydrangea- 30-48\" (before trimming), Pragnese Viburnum- 36-60\", BOBO Dwarf Hydrangea- 24-32\", Let's Dance Skyview Hydrangea- NR, Brodies- NR, Ruby Slippers- 24-36\", Puffer Fish- 36-48\", Snow Queen- 42-54\"",
+      "empty": false,
+      "tokens": [
+        "limelight",
+        "prime",
+        "hydrangea",
+        "pragnese",
+        "viburnum",
+        "bobo",
+        "dwarf",
+        "let",
+        "dance",
+        "skyview",
+        "brodies",
+        "ruby",
+        "slippers",
+        "puffer",
+        "fish",
+        "snow",
+        "queen"
+      ]
+    },
+    {
+      "id": "1.192",
+      "farm": 1,
+      "plants": "Boxwood- looks like wintergreen or sprinter- (side of big green giants) ?- 20-24\", Taylor Juniper 6', Boxwoods (side of Cricket)- ? 18-22\", Starpower- 6-7', Sweetbay Magnolia ST 1.5\"",
+      "empty": false,
+      "tokens": [
+        "boxwood",
+        "looks",
+        "like",
+        "wintergreen",
+        "sprinter",
+        "side",
+        "green",
+        "giants",
+        "taylor",
+        "juniper",
+        "boxwoods",
+        "cricket",
+        "starpower",
+        "sweetbay",
+        "magnolia"
+      ]
+    },
+    {
+      "id": "1.194",
+      "farm": 1,
+      "plants": "Blue Point Junipers- NR, Eastern Red Cedar- 6-7', Ruby Slippers Hydrangea- 20-24\", Little Bowling Ball Arbs? Or whatever similar- ? NR, Little Arbs? NR",
+      "empty": false,
+      "tokens": [
+        "blue",
+        "point",
+        "junipers",
+        "eastern",
+        "red",
+        "cedar",
+        "ruby",
+        "slippers",
+        "hydrangea",
+        "little",
+        "bowling",
+        "ball",
+        "arbs",
+        "whatever",
+        "similar"
+      ]
+    },
+    {
+      "id": "1.195",
+      "farm": 1,
+      "plants": "Snow Queen Hydrangea 36-46\", Boxwoods- ? NR, Little Arbs- ? NR, 1/2 Row Snow Queen Hydrangea- 28-36\"",
+      "empty": false,
+      "tokens": [
+        "snow",
+        "queen",
+        "hydrangea",
+        "boxwoods",
+        "little",
+        "arbs"
+      ]
+    },
+    {
+      "id": "1.196",
+      "farm": 1,
+      "plants": "Slender Sil Sweetgum- FTG 2-3\"",
+      "empty": false,
+      "tokens": [
+        "slender",
+        "sil",
+        "sweetgum"
+      ]
+    },
+    {
+      "id": "1.197",
+      "farm": 1,
+      "plants": "Slender Sil Sweetgum- FTG 2-3\" , Wildfire Blackgum 1.5-1.75\"",
+      "empty": false,
+      "tokens": [
+        "slender",
+        "sil",
+        "sweetgum",
+        "wildfire",
+        "blackgum"
+      ]
+    },
+    {
+      "id": "2.1",
+      "farm": 2,
+      "plants": "Kay Parris Magnolia- 6-12', Oakland Holly- 6-8 thin on the tips",
+      "empty": false,
+      "tokens": [
+        "kay",
+        "parris",
+        "magnolia",
+        "oakland",
+        "holly",
+        "thin"
+      ]
+    },
+    {
+      "id": "2.2",
+      "farm": 2,
+      "plants": "Newly planted boxwoods and evergreens in this area- did not see tags. Planted by Oscar's crew",
+      "empty": false,
+      "tokens": [
+        "boxwoods",
+        "evergreens",
+        "see",
+        "tags",
+        "by",
+        "oscar",
+        "crew"
+      ]
+    },
+    {
+      "id": "2.3",
+      "farm": 2,
+      "plants": "Forest Pansy Redbud- 1.5-3.25, LTD 3-3.25\"",
+      "empty": false,
+      "tokens": [
+        "forest",
+        "pansy",
+        "redbud"
+      ]
+    },
+    {
+      "id": "2.4",
+      "farm": 2,
+      "plants": "Green Giant- 11-12'? (to the tips 12-13.5') , Green Velvet Boxwood - 24-26\" LTD 26\"",
+      "empty": false,
+      "tokens": [
+        "green",
+        "giant",
+        "velvet",
+        "boxwood"
+      ]
+    },
+    {
+      "id": "2.5",
+      "farm": 2,
+      "plants": "White Fringe - ST 1.5-5.5\", MT- 10-16'' - Green Giant- 6-7' some 8-9' , Newly Planted Janed Gold or North Pole- NR",
+      "empty": false,
+      "tokens": [
+        "white",
+        "fringe",
+        "green",
+        "giant",
+        "some",
+        "janed",
+        "gold",
+        "north",
+        "pole"
+      ]
+    },
+    {
+      "id": "2.6",
+      "farm": 2,
+      "plants": "Skyline Honey Locust- 2-2.75\", Ginko- (6) 2.5-4\", Ruby Falls Redbud- 1.5-2\", White Kousa Dogwood- 1.5\"",
+      "empty": false,
+      "tokens": [
+        "skyline",
+        "honey",
+        "locust",
+        "ginko",
+        "ruby",
+        "falls",
+        "redbud",
+        "white",
+        "kousa",
+        "dogwood"
+      ]
+    },
+    {
+      "id": "2.7",
+      "farm": 2,
+      "plants": "American Pillar Arbroviate S23- 7-11' to the tips",
+      "empty": false,
+      "tokens": [
+        "american",
+        "pillar",
+        "arbroviate"
+      ]
+    },
+    {
+      "id": "2.8",
+      "farm": 2,
+      "plants": "White Fringe - ST- 1.5-5\", MT- 10-16' , winter green boxwood- NR, sprinter boxwood- NR , American Pillar- Thin- 6-10' to tips, Green Giant 6-7' some 8-9', another arb IDK- AJ says he will remember",
+      "empty": false,
+      "tokens": [
+        "white",
+        "fringe",
+        "winter",
+        "green",
+        "boxwood",
+        "sprinter",
+        "american",
+        "pillar",
+        "thin",
+        "giant",
+        "some",
+        "another",
+        "arb",
+        "idk",
+        "aj",
+        "says",
+        "he",
+        "remember"
+      ]
+    },
+    {
+      "id": "2.9",
+      "farm": 2,
+      "plants": "White Pine- 6-8',  Eastern Red Cedar- 7-10', Virginia Pine- 9-12' LTD 9',  Loblolly Pine- 8-12', LTD 15-16' - a couple taller than 16'",
+      "empty": false,
+      "tokens": [
+        "white",
+        "pine",
+        "eastern",
+        "red",
+        "cedar",
+        "virginia",
+        "loblolly",
+        "couple",
+        "taller",
+        "than"
+      ]
+    },
+    {
+      "id": "2.10",
+      "farm": 2,
+      "plants": "Sawtooth Oak- 2-4\" LTD 4-5.5\", Tulip Poplar- 2-6\", Seedling North Hackberry- 2-4\"  , BURR Oak- 2-4.5\"- closest to Betty's house",
+      "empty": false,
+      "tokens": [
+        "sawtooth",
+        "oak",
+        "tulip",
+        "poplar",
+        "seedling",
+        "north",
+        "hackberry",
+        "burr",
+        "closest",
+        "betty",
+        "house"
+      ]
+    },
+    {
+      "id": "2.11",
+      "farm": 2,
+      "plants": "White dogwood- Cornus Florida- Ch. Prin. ?- 1-1.5\", Jane Magnolia- LTD 8-12' , Ann Magnolia- (6) left- 4-5' , Sawtooth oak- 2-4\" {anne more crinkly red and purple, Jane Purple and light pink, Slongenna tall and tight}",
+      "empty": false,
+      "tokens": [
+        "white",
+        "dogwood",
+        "cornus",
+        "florida",
+        "ch",
+        "prin",
+        "jane",
+        "magnolia",
+        "ann",
+        "sawtooth",
+        "oak",
+        "anne",
+        "more",
+        "crinkly",
+        "red",
+        "purple",
+        "light",
+        "pink",
+        "slongenna",
+        "tall",
+        "tight"
+      ]
+    },
+    {
+      "id": "2.12",
+      "farm": 2,
+      "plants": "Winter gem boxwood- NR, Green Giant- 6-11' to the tips",
+      "empty": false,
+      "tokens": [
+        "winter",
+        "gem",
+        "boxwood",
+        "green",
+        "giant"
+      ]
+    },
+    {
+      "id": "2.13",
+      "farm": 2,
+      "plants": "Dynamite Crapemyrtle 10- 15'- didn’t measure prob will push out",
+      "empty": false,
+      "tokens": [
+        "dynamite",
+        "crapemyrtle",
+        "out"
+      ]
+    },
+    {
+      "id": "2.14",
+      "farm": 2,
+      "plants": "",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "2.15",
+      "farm": 2,
+      "plants": "",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "2.16",
+      "farm": 2,
+      "plants": "",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "2.17",
+      "farm": 2,
+      "plants": "",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "2.18",
+      "farm": 2,
+      "plants": "",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "2.19",
+      "farm": 2,
+      "plants": "",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "2.20",
+      "farm": 2,
+      "plants": "",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "3.1",
+      "farm": 3,
+      "plants": "Blood Good Japanese Maple S23- LTD 1.5-2\", Psuedo Swartia- (14) 1-1.5\"",
+      "empty": false,
+      "tokens": [
+        "blood",
+        "good",
+        "japanese",
+        "maple",
+        "psuedo",
+        "swartia"
+      ]
+    },
+    {
+      "id": "3.2",
+      "farm": 3,
+      "plants": "Green Velvet  Boxwood- 18-24\"",
+      "empty": false,
+      "tokens": [
+        "green",
+        "velvet",
+        "boxwood"
+      ]
+    },
+    {
+      "id": "3.3",
+      "farm": 3,
+      "plants": "Green Velvet Boxwood 18-24\" LTD 24-26\",  (2)  rows Winter Gem/ Winter Green  Boxwood- 26-36\"  not many left",
+      "empty": false,
+      "tokens": [
+        "green",
+        "velvet",
+        "boxwood",
+        "winter",
+        "gem",
+        "many"
+      ]
+    },
+    {
+      "id": "3.4",
+      "farm": 3,
+      "plants": "Emerald Arbroviate- 6-7'",
+      "empty": false,
+      "tokens": [
+        "emerald",
+        "arbroviate"
+      ]
+    },
+    {
+      "id": "3.5",
+      "farm": 3,
+      "plants": "Steeple Chase Arbroviate- 6-9' LTD 10-12', (12) double stemmed 11-12'",
+      "empty": false,
+      "tokens": [
+        "steeple",
+        "chase",
+        "arbroviate",
+        "double",
+        "stemmed"
+      ]
+    },
+    {
+      "id": "3.6",
+      "farm": 3,
+      "plants": "Ivory Silk Lilac- 3.75-5.5\" , Franklinia- (3) 1\", Yellowwood- (2) 1.75-2\", (1) 5.25\"",
+      "empty": false,
+      "tokens": [
+        "ivory",
+        "silk",
+        "lilac",
+        "franklinia",
+        "yellowwood"
+      ]
+    },
+    {
+      "id": "3.7",
+      "farm": 3,
+      "plants": "October Glory Maple- 1.5-2\", Sumac- 1.5-3.5\"",
+      "empty": false,
+      "tokens": [
+        "october",
+        "glory",
+        "maple",
+        "sumac"
+      ]
+    },
+    {
+      "id": "3.8",
+      "farm": 3,
+      "plants": "Green Vase Zelkova- 5-6\", Wildfire Blackgum- (1)4.75\" (1)5.75\", (1) 1.75\" Ginkgo, (1) 3\" Cornus Flordia White Dogwood- freeze damage",
+      "empty": false,
+      "tokens": [
+        "green",
+        "vase",
+        "zelkova",
+        "wildfire",
+        "blackgum",
+        "ginkgo",
+        "cornus",
+        "flordia",
+        "white",
+        "dogwood",
+        "freeze",
+        "damage"
+      ]
+    },
+    {
+      "id": "3.9",
+      "farm": 3,
+      "plants": "OPEN SPACE",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "3.10",
+      "farm": 3,
+      "plants": "American Pillar Arbroviate- 12-15', Emeriald Arbroviate 6-7' ,  Butterflies Magnolia- 8-12' , Another Arb here?",
+      "empty": false,
+      "tokens": [
+        "american",
+        "pillar",
+        "arbroviate",
+        "emeriald",
+        "butterflies",
+        "magnolia",
+        "another",
+        "arb"
+      ]
+    },
+    {
+      "id": "3.11",
+      "farm": 3,
+      "plants": "OPEN SPACE",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "3.12",
+      "farm": 3,
+      "plants": "OPEN SPACE",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "3.13",
+      "farm": 3,
+      "plants": "Kousa Dogwood (WHITE) - LTD 1.5\", Shumardi Oak- 5-7\" + LTD some smaller",
+      "empty": false,
+      "tokens": [
+        "kousa",
+        "dogwood",
+        "white",
+        "shumardi",
+        "oak",
+        "some",
+        "smaller"
+      ]
+    },
+    {
+      "id": "3.14",
+      "farm": 3,
+      "plants": "1/2 row Shumardi Oak- 2-4\", RedPointe Maple- 2-4\", Tulip Poplar- 4-6\" LTD 2\", Psuedo Camilla Swardia- (2) 1.5\" , Bald Cypress - (1) 4.25\" (1) 5\", 1/2 row Oak large leaf- Burr Oak- 2-3.5\"",
+      "empty": false,
+      "tokens": [
+        "shumardi",
+        "oak",
+        "redpointe",
+        "maple",
+        "tulip",
+        "poplar",
+        "psuedo",
+        "camilla",
+        "swardia",
+        "bald",
+        "cypress",
+        "leaf",
+        "burr"
+      ]
+    },
+    {
+      "id": "3.15",
+      "farm": 3,
+      "plants": "Autumn Fest Sugar Maple- 3-5.5\" LTD, 3 rows Redpointe Maple- 5-6\" LTD 4.5\", 7 Rows October Glory- 5-6\" LTD 4.5\", Showtyme Crabapple- (2) 3\"",
+      "empty": false,
+      "tokens": [
+        "autumn",
+        "fest",
+        "sugar",
+        "maple",
+        "redpointe",
+        "october",
+        "glory",
+        "showtyme",
+        "crabapple"
+      ]
+    },
+    {
+      "id": "3.16",
+      "farm": 3,
+      "plants": "Chinese Pistache- 2-4.5\", 3/4 row Native Pecan 1.5-3\"",
+      "empty": false,
+      "tokens": [
+        "chinese",
+        "pistache",
+        "native",
+        "pecan"
+      ]
+    },
+    {
+      "id": "3.17",
+      "farm": 3,
+      "plants": "Little Oaks maybe 3 varieties- Pin Oak - NR",
+      "empty": false,
+      "tokens": [
+        "little",
+        "oaks",
+        "varieties",
+        "pin",
+        "oak"
+      ]
+    },
+    {
+      "id": "3.18",
+      "farm": 3,
+      "plants": "Whitch Hazel- 5-9' , Sprinter Boxwood- 24-36\", (7) Saucer Magnolia? 7-10' , (1) Pink Crapemyrtle 9', (1) White Fringe MT 8-12' (1) 14-16'",
+      "empty": false,
+      "tokens": [
+        "whitch",
+        "hazel",
+        "sprinter",
+        "boxwood",
+        "saucer",
+        "magnolia",
+        "pink",
+        "crapemyrtle",
+        "white",
+        "fringe"
+      ]
+    },
+    {
+      "id": "3.19",
+      "farm": 3,
+      "plants": "OPEN SPACE",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "3.20",
+      "farm": 3,
+      "plants": "Shumard Oak (3 rows) 2-6\" LTD 6-7\", Willow Oak- 2-6\", Tree form Autumn Brillance Service Berry- 1.5-1.75\", Bald Cypress- 2-6\" , Sweetgum- 2.5-4\"",
+      "empty": false,
+      "tokens": [
+        "shumard",
+        "oak",
+        "willow",
+        "tree",
+        "form",
+        "autumn",
+        "brillance",
+        "service",
+        "berry",
+        "bald",
+        "cypress",
+        "sweetgum"
+      ]
+    },
+    {
+      "id": "3.21",
+      "farm": 3,
+      "plants": "Shumard Oak 1.5-3\" A few 5-7\", Pin Oak - 5-7\"  LTD 2-4\" & 7\"+",
+      "empty": false,
+      "tokens": [
+        "shumard",
+        "oak",
+        "pin"
+      ]
+    },
+    {
+      "id": "3.22",
+      "farm": 3,
+      "plants": "Weeping Willow- 2-3.5\" LTD 4\" , Heritage Riverbirch- ST 2-5\" MT- 10-18ft , Bald Cypress- 2.5-4.5\"",
+      "empty": false,
+      "tokens": [
+        "weeping",
+        "willow",
+        "heritage",
+        "riverbirch",
+        "18ft",
+        "bald",
+        "cypress"
+      ]
+    },
+    {
+      "id": "3.23",
+      "farm": 3,
+      "plants": "Sycamore/Londone Plane Tree- 3-3.5\", Weeping Willow- 2-3\"",
+      "empty": false,
+      "tokens": [
+        "sycamore",
+        "londone",
+        "plane",
+        "tree",
+        "weeping",
+        "willow"
+      ]
+    },
+    {
+      "id": "3.24",
+      "farm": 3,
+      "plants": "Eastern Redbud- (4) Left 3-7\", Winter King Hawthorne 2-2.75\" LTD 3\", Alle Lacebark Elm- 3-6\"     LTD 2-2.5\" & 7\"",
+      "empty": false,
+      "tokens": [
+        "eastern",
+        "redbud",
+        "winter",
+        "king",
+        "hawthorne",
+        "alle",
+        "lacebark",
+        "elm"
+      ]
+    },
+    {
+      "id": "3.25",
+      "farm": 3,
+      "plants": "Shumard Oak 1.5-2\" LTD 2.5-4\"",
+      "empty": false,
+      "tokens": [
+        "shumard",
+        "oak"
+      ]
+    },
+    {
+      "id": "3.26",
+      "farm": 3,
+      "plants": "Autumn Blaze Maple- 3.5-5.5\" (thinner brighter red and golden limbs) closest to pond, October Glory Maple- 3-5.5\" LTD 3\"",
+      "empty": false,
+      "tokens": [
+        "autumn",
+        "blaze",
+        "maple",
+        "thinner",
+        "brighter",
+        "red",
+        "golden",
+        "limbs",
+        "closest",
+        "pond",
+        "october",
+        "glory"
+      ]
+    },
+    {
+      "id": "3.27",
+      "farm": 3,
+      "plants": "Chinese Pistache- (25 left) 5-5.75\" -- (1)3.5\", (1)4.75\" (1) 6.5\"",
+      "empty": false,
+      "tokens": [
+        "chinese",
+        "pistache"
+      ]
+    },
+    {
+      "id": "3.28",
+      "farm": 3,
+      "plants": "Shumardi Oak (taller) 4-7\" LTD 2-3.5\"  LTD 7\"+   , Nuttall Oak- 4-7\"  LTD 3-3.5\"  LTD 7\"+",
+      "empty": false,
+      "tokens": [
+        "shumardi",
+        "oak",
+        "taller",
+        "nuttall"
+      ]
+    },
+    {
+      "id": "3.29",
+      "farm": 3,
+      "plants": "Willow Oak- 5-7\" LTD 7\"+",
+      "empty": false,
+      "tokens": [
+        "willow",
+        "oak"
+      ]
+    },
+    {
+      "id": "3.30",
+      "farm": 3,
+      "plants": "",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "3.31",
+      "farm": 3,
+      "plants": "",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "3.32",
+      "farm": 3,
+      "plants": "",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "3.33",
+      "farm": 3,
+      "plants": "",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "3.34",
+      "farm": 3,
+      "plants": "",
+      "empty": true,
+      "tokens": []
+    },
+    {
+      "id": "3.35",
+      "farm": 3,
+      "plants": "",
+      "empty": true,
+      "tokens": []
+    }
+  ]
+}

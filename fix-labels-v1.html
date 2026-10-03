@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Got Dirt — label normalize v1</title>
+</head>
+<body>
+<pre id="out">Applying idNormalizeV1…</pre>
+<script>
+(function () {
+  const FLAG = "gotDirt.idNormalizeV1";
+  const LS_LABELS = "gotDirt.polygonLabels";
+  const LS_CUSTOM = "gotDirt.customOutlines";
+  const MAP = {
+    "1.1": "1.01", "1.2": "1.02", "1.3": "1.03", "1.4": "1.04", "1.5": "1.05",
+    "1.6": "1.06", "1.7": "1.07", "1.8": "1.08", "1.9": "1.09",
+    "1.26": "1.26A", "1.60": "1.60A", "1.68": "1.68B", "1.126": "1.126A",
+    "13183": "1.183"
+  };
+  const out = [];
+  const log = (s) => { out.push(s); document.getElementById("out").textContent = out.join("\n"); };
+  try {
+    const already = localStorage.getItem(FLAG) === "1";
+    log("flag before: " + (localStorage.getItem(FLAG) || "(unset)"));
+    let labels = {};
+    let custom = [];
+    try { labels = JSON.parse(localStorage.getItem(LS_LABELS) || "{}") || {}; } catch (_) { labels = {}; }
+    try {
+      const raw = JSON.parse(localStorage.getItem(LS_CUSTOM) || "[]");
+      custom = Array.isArray(raw) ? raw : [];
+    } catch (_) { custom = []; }
+    const renames = [];
+    for (const [idx, id] of Object.entries(labels)) {
+      const next = MAP[id];
+      if (!next || next === id) continue;
+      labels[idx] = next;
+      renames.push("auto[" + idx + "] " + id + " → " + next);
+    }
+    for (let i = 0; i < custom.length; i++) {
+      const o = custom[i];
+      if (!o || !o.id) continue;
+      const next = MAP[o.id];
+      if (!next || next === o.id) continue;
+      renames.push("custom[" + i + "] " + o.id + " → " + next);
+      o.id = next;
+    }
+    if (renames.length) {
+      localStorage.setItem(LS_LABELS, JSON.stringify(labels));
+      localStorage.setItem(LS_CUSTOM, JSON.stringify(custom));
+    }
+    localStorage.setItem(FLAG, "1");
+    log(already ? "(flag was already set; re-applied map to any remaining old ids)" : "flag set");
+    log("renames (" + renames.length + "):");
+    renames.forEach((r) => log("  " + r));
+    if (!renames.length) log("  (none — old ids already gone or absent)");
+    // spot-check
+    const vals = Object.values(labels);
+    const cids = custom.map((o) => o && o.id).filter(Boolean);
+    const check = ["1.01","1.04","1.09","1.26A","1.60A","1.68B","1.126A","1.183","1.1","1.26","13183","1.35","1.68A"];
+    log("spot-check:");
+    for (const id of check) {
+      const inL = vals.includes(id);
+      const inC = cids.includes(id);
+      if (inL || inC) log("  has " + id + (inL ? " (auto)" : "") + (inC ? " (custom)" : ""));
+    }
+    log("done. Redirecting to app/?v=19 in 2s…");
+    setTimeout(function () { location.href = "/app/?v=19"; }, 2000);
+  } catch (err) {
+    log("ERROR: " + err);
+  }
+})();
+</script>
+</body>
+</html>
