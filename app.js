@@ -156,7 +156,7 @@
 
   async function loadLabelsFromPack() {
     try {
-      const r = await fetch("data/polygon-labels.json?v=30");
+      const r = await fetch("data/polygon-labels.json?v=31");
       if (!r.ok) return;
       const doc = await r.json();
       const fromPack = normalizeLabelsDoc(doc);
@@ -271,7 +271,7 @@
 
   async function loadCustomOutlinesFromPack() {
     try {
-      const r = await fetch("data/custom-outlines.json?v=30");
+      const r = await fetch("data/custom-outlines.json?v=31");
       if (!r.ok) return;
       const doc = await r.json();
       const fromPack = normalizeOutlinesDoc(doc).filter((o) => o && o.path && o.path.length >= 3);
@@ -342,7 +342,7 @@
 
   async function loadDeletedAutoFromPack() {
     try {
-      const r = await fetch("data/deleted-auto-indices.json?v=30");
+      const r = await fetch("data/deleted-auto-indices.json?v=31");
       if (!r.ok) return;
       const doc = await r.json();
       const fromPack = normalizeDeletedDoc(doc)
@@ -1232,51 +1232,31 @@
     updateMapStatus();
   }
 
-  function renderResults() {
-    const box = $("#results");
-    const meta = $("#resultMeta");
-    if (!state.query) {
-      meta.textContent =
-        'Type cultivar, plot, or size (e.g. October Glory 3", boxwood, 1.12) — sizes match ranges too';
-      box.innerHTML = `<div class="empty">Search the live <b>25-26</b> inventory.<br>Matching plots highlight on the nursery map.</div>`;
-      updatePhotoPanel();
-      return;
-    }
-    const sizeNote =
-      state.parsed && state.parsed.sizes && state.parsed.sizes.length
-        ? `<span class="chip">size ${state.parsed.sizes.map((n) => n + '"').join(", ")} in range</span>`
+  function plotCardHtml(p) {
+    const active = state.selected.has(p.id) ? " active" : "";
+    const empty = p.empty ? `<span class="empty-tag">OPEN/EMPTY</span>` : "";
+    const hasPoly = !!outlineFor(p.id);
+    const mapTag = hasPoly
+      ? `<span class="empty-tag" style="color:var(--green);background:#123524;border-color:#1f6b52">outline</span>`
+      : state.coords[p.id]
+        ? `<span class="empty-tag" style="color:var(--accent)">pin</span>`
         : "";
-    meta.innerHTML = `<span class="chip"><b>${state.hits.length}</b> match${state.hits.length === 1 ? "" : "es"}</span>
-      <span class="chip">${state.selected.size} highlighted</span>${sizeNote}`;
-    if (!state.hits.length) {
-      box.innerHTML = `<div class="empty">No plots match <b>${escapeHtml(state.query)}</b>.</div>`;
-      updatePhotoPanel();
-      return;
-    }
-    box.innerHTML = state.hits
-      .map((p) => {
-        const active = state.selected.has(p.id) ? " active" : "";
-        const empty = p.empty ? `<span class="empty-tag">OPEN/EMPTY</span>` : "";
-        const hasPoly = !!outlineFor(p.id);
-        const mapTag = hasPoly
-          ? `<span class="empty-tag" style="color:var(--green);background:#123524;border-color:#1f6b52">outline</span>`
-          : state.coords[p.id]
-            ? `<span class="empty-tag" style="color:var(--accent)">pin</span>`
-            : "";
-        const plants =
-          p.empty && !p.plants
-            ? `<span style="color:var(--muted)">(no plant text — open/blank)</span>`
-            : highlightText(p.plants || "(empty)", state.query);
-        return `<div class="hit${active}" data-id="${escapeHtml(p.id)}" role="button" tabindex="0">
+    const plants =
+      p.empty && !p.plants
+        ? `<span style="color:var(--muted)">(no plant text — open/blank)</span>`
+        : highlightText(p.plants || "(empty)", state.query);
+    const farm = p.farm ? `<span class="farm">Farm ${escapeHtml(String(p.farm))}</span>` : "";
+    return `<div class="hit${active}" data-id="${escapeHtml(p.id)}" role="button" tabindex="0">
           <div class="top">
             <span class="plot">${escapeHtml(p.id)}</span>
-            <span class="farm">Farm ${p.farm}</span>
+            ${farm}
             ${empty}${mapTag}
           </div>
           <div class="plants">${plants}</div>
         </div>`;
-      })
-      .join("");
+  }
+
+  function bindHitClicks(box) {
     box.querySelectorAll(".hit").forEach((el) => {
       el.addEventListener("click", () => {
         const id = el.getAttribute("data-id");
@@ -1291,6 +1271,50 @@
         else scrollPinIntoView(id);
       });
     });
+  }
+
+  function selectedPlotCards(ids) {
+    return ids.map((id) => {
+      const p = state.plots.find((x) => x.id === id);
+      return plotCardHtml(p || { id, farm: "", plants: "(no inventory text for this plot)", empty: false });
+    }).join("");
+  }
+
+  function renderResults() {
+    const box = $("#results");
+    const meta = $("#resultMeta");
+    if (!state.query) {
+      const ids = [...state.selected];
+      if (!ids.length) {
+        meta.textContent =
+          'Type cultivar, plot, or size (e.g. October Glory 3", boxwood, 1.12) — sizes match ranges too';
+        box.innerHTML = `<div class="empty">Search the live <b>25-26</b> inventory.<br>Matching plots highlight on the nursery map. Tap a block to see cultivar, plot id, and sizes here.</div>`;
+        updatePhotoPanel();
+        return;
+      }
+      meta.innerHTML = `<span class="chip"><b>${ids.length}</b> selected</span>`;
+      const shown = ids.slice(0, 12);
+      const more = ids.length > shown.length
+        ? `<div class="empty">${ids.length - shown.length} more selected. Search to narrow.</div>`
+        : "";
+      box.innerHTML = selectedPlotCards(shown) + more;
+      bindHitClicks(box);
+      updatePhotoPanel();
+      return;
+    }
+    const sizeNote =
+      state.parsed && state.parsed.sizes && state.parsed.sizes.length
+        ? `<span class="chip">size ${state.parsed.sizes.map((n) => n + '"').join(", ")} in range</span>`
+        : "";
+    meta.innerHTML = `<span class="chip"><b>${state.hits.length}</b> match${state.hits.length === 1 ? "" : "es"}</span>
+      <span class="chip">${state.selected.size} highlighted</span>${sizeNote}`;
+    if (!state.hits.length) {
+      box.innerHTML = `<div class="empty">No plots match <b>${escapeHtml(state.query)}</b>.</div>`;
+      updatePhotoPanel();
+      return;
+    }
+    box.innerHTML = state.hits.map((p) => plotCardHtml(p)).join("");
+    bindHitClicks(box);
     updatePhotoPanel();
   }
 
@@ -1777,7 +1801,7 @@
       `<div class="photo-grid">` +
       photos
         .map((rel) => {
-          const src = `data/${rel}?v=30`;
+          const src = `data/${rel}?v=31`;
           const name = String(rel).split("/").pop() || rel;
           return `<button type="button" class="photo-thumb" data-src="${escapeHtml(src)}" title="Enlarge">
             <img src="${escapeHtml(src)}" alt="${escapeHtml(name)}" loading="lazy" decoding="async">
@@ -1883,7 +1907,7 @@
   /** Fetch pack file and merge so localhost ↔ Tailscale origin switches keep work. */
   async function loadPhotoAssignmentsFromPack() {
     try {
-      const r = await fetch("data/photo-assignments.json?v=30");
+      const r = await fetch("data/photo-assignments.json?v=31");
       if (!r.ok) return;
       const doc = await r.json();
       const fromPack = normalizeAssignmentsDoc(doc);
@@ -2010,7 +2034,7 @@
   }
 
   function thumbUrlForPin(pin) {
-    if (pin.thumb) return `data/${pin.thumb}?v=30`;
+    if (pin.thumb) return `data/${pin.thumb}?v=31`;
     // derive from path hash+stem convention matching manifest
     return null;
   }
@@ -2107,7 +2131,7 @@
       const file = (pin.path || "").split("/").pop() || pin.path;
       const cult = pin.cultivar || (pin.path || "").split("/")[0] || "—";
       const date = formatPhotoDto(pin.dto);
-      const thumb = pin.thumb ? `data/${pin.thumb}?v=30` : "";
+      const thumb = pin.thumb ? `data/${pin.thumb}?v=31` : "";
       btn.innerHTML =
         (thumb
           ? `<img src="${escapeHtml(thumb)}" alt="" loading="lazy" decoding="async" onerror="this.style.opacity=.25">`
@@ -2157,7 +2181,7 @@
     if (title) title.textContent = cult;
     if (sub) sub.textContent = file + (pin.dto ? ` · ${formatPhotoDto(pin.dto)}` : "");
 
-    const thumb = pin.thumb ? `data/${pin.thumb}?v=30` : "";
+    const thumb = pin.thumb ? `data/${pin.thumb}?v=31` : "";
     const excel = (pin.excelPlotIds || []).filter(Boolean);
     const excelHint = excel.length
       ? `Excel inventory hint (optional): ${excel.join(", ")} — you still choose.`
@@ -2346,18 +2370,18 @@
     loadGpsDecisions();
     loadPhotoAssignments();
     const [flat, coords, polys, photos, gpsPinsDoc, reviewDoc] = await Promise.all([
-      fetch("data/stock-flat.json?v=30").then((r) => r.json()),
-      fetch("data/plot-coords.json?v=30").then((r) => r.json()),
-      fetch("data/plot-polygons.json?v=30")
+      fetch("data/stock-flat.json?v=31").then((r) => r.json()),
+      fetch("data/plot-coords.json?v=31").then((r) => r.json()),
+      fetch("data/plot-polygons.json?v=31")
         .then((r) => (r.ok ? r.json() : null))
         .catch(() => null),
-      fetch("data/plot-photos.json?v=30")
+      fetch("data/plot-photos.json?v=31")
         .then((r) => (r.ok ? r.json() : {}))
         .catch(() => ({})),
-      fetch("data/photo-gps-pins.json?v=30")
+      fetch("data/photo-gps-pins.json?v=31")
         .then((r) => (r.ok ? r.json() : null))
         .catch(() => null),
-      fetch("data/gps-review-manifest.json?v=30")
+      fetch("data/gps-review-manifest.json?v=31")
         .then((r) => (r.ok ? r.json() : null))
         .catch(() => null),
     ]);
@@ -2518,7 +2542,7 @@
   function ensureFarm1Fit() {
     if (farm1Fit) return Promise.resolve(farm1Fit);
     if (farm1FitPromise) return farm1FitPromise;
-    farm1FitPromise = fetch("data/farm1-georef.json?v=30")
+    farm1FitPromise = fetch("data/farm1-georef.json?v=31")
       .then((r) => {
         if (!r.ok) throw new Error("missing");
         return r.json();

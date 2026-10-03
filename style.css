@@ -38,11 +38,8 @@ h1{
   .layout.photo-open{grid-template-columns:minmax(240px,320px) 1fr minmax(220px,300px);}
   .layout.photo-open .photo-panel{display:flex;}
 }
-@media (max-width:900px){
-  .layout{grid-template-columns:1fr;grid-template-rows:auto 1fr auto;}
-  .photo-panel{display:flex;max-height:280px;border-left:none;border-top:1px solid var(--border);}
-  .layout.photo-open{grid-template-columns:1fr;grid-template-rows:auto 1fr auto;}
-}
+/* Narrow layout lives at the end of this file (@media max-width:800px).
+   Do not hide the sidebar or photo panel here. */
 .sidebar{
   border-right:1px solid var(--border);background:var(--bg2);
   display:flex;flex-direction:column;min-height:0;max-height:calc(100vh - 78px);
@@ -590,3 +587,46 @@ body.assign-mode.layout-assign .photo-panel,
   transform:translate(-50%,-50%);pointer-events:none;
 }
 #myLocDot[hidden]{display:none !important;}
+
+/* Phone / narrow (v31): map on top, then block details, then photos.
+   Page scrolls. Sidebar and photo panel stay on the page (not display:none,
+   not off-canvas). Wider screens keep the 3-column grid. */
+@media (max-width:800px){
+  html,body{
+    height:auto;min-height:100%;
+    overflow-x:hidden;overflow-y:auto;
+  }
+  body{display:block;}
+  .header{padding:12px 12px 8px;}
+  .layout{
+    display:flex;flex-direction:column;
+    flex:none;height:auto;min-height:0;overflow:visible;
+  }
+  .map-pane{
+    order:1;max-height:none;min-height:0;
+    border-bottom:1px solid var(--border);
+  }
+  .map-wrap{
+    flex:none;height:58vh;min-height:240px;max-height:70vh;
+  }
+  .sidebar{
+    order:2;display:flex;max-height:none;min-height:0;
+    border-right:none;border-top:1px solid var(--border);
+    overflow:visible;
+  }
+  .results{
+    flex:1 1 auto;min-height:200px;max-height:55vh;overflow:auto;
+  }
+  .photo-panel,
+  .layout .photo-panel,
+  .layout.photo-open .photo-panel,
+  .layout.assign-open .photo-panel{
+    order:3;display:flex;max-height:none;min-height:180px;
+    border-left:none;border-top:1px solid var(--border);
+    overflow:visible;
+  }
+  .photo-panel-body{
+    flex:1 1 auto;min-height:160px;max-height:70vh;overflow:auto;
+  }
+  .map-toolbar{gap:8px;padding:8px 10px;}
+}
