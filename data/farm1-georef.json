@@ -1,0 +1,57 @@
+{
+  "version": 7,
+  "farm": 1,
+  "crs": "EPSG:4326",
+  "note": "Farm 1 only. Piecewise inverse for Show my location. Phone GPS is not stored.",
+  "enuOrigin": {
+    "lat": 36.09152192877001,
+    "lon": -85.45066513411595,
+    "mPerDegLat": 111320.0,
+    "mPerDegLon": 89955.13816209318
+  },
+  "inverse_EN_to_map_percent": {
+    "B2inv_2x2": [
+      [
+        0.07258418958035114,
+        0.046867842171303443
+      ],
+      [
+        0.009041746297057474,
+        -0.09218865953802573
+      ]
+    ],
+    "east_B2inv_2x2": [
+      [
+        0.08191463972233938,
+        -0.2968935307137251
+      ],
+      [
+        -0.009898351659949234,
+        -0.07780027379946633
+      ]
+    ],
+    "west_t": [
+      -637.5692060340879,
+      573.5739892556064
+    ],
+    "east_t": [
+      -104.97206288737297,
+      3139.8641767555177
+    ],
+    "formula": "map_xy = B2inv @ (EN - t); piecewise blend by xPct"
+  },
+  "piecewise": {
+    "splitXPct": 70.0,
+    "blendPct": 8.0
+  },
+  "reliableRegionMapPct": {
+    "xPct": [
+      10.0,
+      95.0
+    ],
+    "yPct": [
+      38.0,
+      95.0
+    ]
+  }
+}

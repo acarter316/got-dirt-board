@@ -156,7 +156,7 @@
 
   async function loadLabelsFromPack() {
     try {
-      const r = await fetch("data/polygon-labels.json?v=28");
+      const r = await fetch("data/polygon-labels.json?v=30");
       if (!r.ok) return;
       const doc = await r.json();
       const fromPack = normalizeLabelsDoc(doc);
@@ -271,7 +271,7 @@
 
   async function loadCustomOutlinesFromPack() {
     try {
-      const r = await fetch("data/custom-outlines.json?v=28");
+      const r = await fetch("data/custom-outlines.json?v=30");
       if (!r.ok) return;
       const doc = await r.json();
       const fromPack = normalizeOutlinesDoc(doc).filter((o) => o && o.path && o.path.length >= 3);
@@ -342,7 +342,7 @@
 
   async function loadDeletedAutoFromPack() {
     try {
-      const r = await fetch("data/deleted-auto-indices.json?v=28");
+      const r = await fetch("data/deleted-auto-indices.json?v=30");
       if (!r.ok) return;
       const doc = await r.json();
       const fromPack = normalizeDeletedDoc(doc)
@@ -1777,7 +1777,7 @@
       `<div class="photo-grid">` +
       photos
         .map((rel) => {
-          const src = `data/${rel}?v=28`;
+          const src = `data/${rel}?v=30`;
           const name = String(rel).split("/").pop() || rel;
           return `<button type="button" class="photo-thumb" data-src="${escapeHtml(src)}" title="Enlarge">
             <img src="${escapeHtml(src)}" alt="${escapeHtml(name)}" loading="lazy" decoding="async">
@@ -1883,7 +1883,7 @@
   /** Fetch pack file and merge so localhost ↔ Tailscale origin switches keep work. */
   async function loadPhotoAssignmentsFromPack() {
     try {
-      const r = await fetch("data/photo-assignments.json?v=28");
+      const r = await fetch("data/photo-assignments.json?v=30");
       if (!r.ok) return;
       const doc = await r.json();
       const fromPack = normalizeAssignmentsDoc(doc);
@@ -2010,7 +2010,7 @@
   }
 
   function thumbUrlForPin(pin) {
-    if (pin.thumb) return `data/${pin.thumb}?v=28`;
+    if (pin.thumb) return `data/${pin.thumb}?v=30`;
     // derive from path hash+stem convention matching manifest
     return null;
   }
@@ -2107,7 +2107,7 @@
       const file = (pin.path || "").split("/").pop() || pin.path;
       const cult = pin.cultivar || (pin.path || "").split("/")[0] || "—";
       const date = formatPhotoDto(pin.dto);
-      const thumb = pin.thumb ? `data/${pin.thumb}?v=28` : "";
+      const thumb = pin.thumb ? `data/${pin.thumb}?v=30` : "";
       btn.innerHTML =
         (thumb
           ? `<img src="${escapeHtml(thumb)}" alt="" loading="lazy" decoding="async" onerror="this.style.opacity=.25">`
@@ -2157,7 +2157,7 @@
     if (title) title.textContent = cult;
     if (sub) sub.textContent = file + (pin.dto ? ` · ${formatPhotoDto(pin.dto)}` : "");
 
-    const thumb = pin.thumb ? `data/${pin.thumb}?v=28` : "";
+    const thumb = pin.thumb ? `data/${pin.thumb}?v=30` : "";
     const excel = (pin.excelPlotIds || []).filter(Boolean);
     const excelHint = excel.length
       ? `Excel inventory hint (optional): ${excel.join(", ")} — you still choose.`
@@ -2346,18 +2346,18 @@
     loadGpsDecisions();
     loadPhotoAssignments();
     const [flat, coords, polys, photos, gpsPinsDoc, reviewDoc] = await Promise.all([
-      fetch("data/stock-flat.json?v=28").then((r) => r.json()),
-      fetch("data/plot-coords.json?v=28").then((r) => r.json()),
-      fetch("data/plot-polygons.json?v=28")
+      fetch("data/stock-flat.json?v=30").then((r) => r.json()),
+      fetch("data/plot-coords.json?v=30").then((r) => r.json()),
+      fetch("data/plot-polygons.json?v=30")
         .then((r) => (r.ok ? r.json() : null))
         .catch(() => null),
-      fetch("data/plot-photos.json?v=28")
+      fetch("data/plot-photos.json?v=30")
         .then((r) => (r.ok ? r.json() : {}))
         .catch(() => ({})),
-      fetch("data/photo-gps-pins.json?v=28")
+      fetch("data/photo-gps-pins.json?v=30")
         .then((r) => (r.ok ? r.json() : null))
         .catch(() => null),
-      fetch("data/gps-review-manifest.json?v=28")
+      fetch("data/gps-review-manifest.json?v=30")
         .then((r) => (r.ok ? r.json() : null))
         .catch(() => null),
     ]);
@@ -2428,6 +2428,201 @@
     updateMapStatus();
     updatePhotoPanel();
     renderGpsPins();
+  }
+
+
+  // Show my location — browser GPS only, Farm 1 georef, nothing stored or sent.
+  let myLocWatchId = null;
+  let farm1Fit = null;
+  let farm1FitPromise = null;
+  let myLocPending = null;
+  let myLocScrolled = false;
+
+  function smoothstep01(edge0, edge1, x) {
+    if (edge1 === edge0) return x < edge0 ? 0 : 1;
+    let t = (x - edge0) / (edge1 - edge0);
+    if (t < 0) t = 0;
+    else if (t > 1) t = 1;
+    return t * t * (3 - 2 * t);
+  }
+
+  function projectFarm1(lat, lon, fit) {
+    const enu = fit.enuOrigin;
+    const inv = fit.inverse_EN_to_map_percent;
+    const Bw = inv.B2inv_2x2;
+    const Be = inv.east_B2inv_2x2;
+    const tw = inv.west_t;
+    const te = inv.east_t;
+    const split = Number(fit.piecewise.splitXPct);
+    const blend = Number(fit.piecewise.blendPct);
+    const E = (lon - enu.lon) * enu.mPerDegLon;
+    const N = (lat - enu.lat) * enu.mPerDegLat;
+    const mv = (M, v0, v1) => [v0 * M[0][0] + v1 * M[1][0], v0 * M[0][1] + v1 * M[1][1]];
+    const xyOf = (B, t) => mv(B, E - t[0], N - t[1]);
+    let xy = xyOf(Bw, tw);
+    const lo = split - blend / 2;
+    const hi = split + blend / 2;
+    for (let i = 0; i < 8; i++) {
+      const w = 1 - smoothstep01(lo, hi, xy[0]);
+      const a = xyOf(Bw, tw);
+      const b = xyOf(Be, te);
+      xy = [w * a[0] + (1 - w) * b[0], w * a[1] + (1 - w) * b[1]];
+    }
+    const rel = fit.reliableRegionMapPct || {};
+    const xr = rel.xPct || [0, 100];
+    const yr = rel.yPct || [0, 100];
+    // 2% pad: in-sample edge residual is ~9 m (~1%). Keeps a phone on the fit edge.
+    // Points outside the Farm 1 fit still project far outside this box.
+    const pad = 2;
+    const inside =
+      xy[0] >= xr[0] - pad && xy[0] <= xr[1] + pad && xy[1] >= yr[0] - pad && xy[1] <= yr[1] + pad;
+    return { x: xy[0], y: xy[1], inside };
+  }
+
+  function setMyLocStatus(text, kind) {
+    const el = $("#myLocStatus");
+    const btn = $("#btnMyLocation");
+    if (btn) btn.title = text || "Show this phone on the Farm 1 map. GPS stays in the browser and is not saved.";
+    if (!el) return;
+    if (!text) {
+      el.hidden = true;
+      el.textContent = "";
+      el.removeAttribute("data-kind");
+      return;
+    }
+    el.hidden = false;
+    el.dataset.kind = kind || "";
+    el.textContent = text;
+  }
+
+  function hideMyLocDot() {
+    const dot = $("#myLocDot");
+    if (!dot) return;
+    dot.hidden = true;
+  }
+
+  function showMyLocDot(x, y) {
+    const dot = $("#myLocDot");
+    if (!dot) return;
+    dot.hidden = false;
+    dot.style.left = x + "%";
+    dot.style.top = y + "%";
+    if (!myLocScrolled) {
+      myLocScrolled = true;
+      try {
+        dot.scrollIntoView({ block: "center", inline: "center", behavior: "smooth" });
+      } catch (_) {}
+    }
+  }
+
+  function ensureFarm1Fit() {
+    if (farm1Fit) return Promise.resolve(farm1Fit);
+    if (farm1FitPromise) return farm1FitPromise;
+    farm1FitPromise = fetch("data/farm1-georef.json?v=30")
+      .then((r) => {
+        if (!r.ok) throw new Error("missing");
+        return r.json();
+      })
+      .then((doc) => {
+        if (!doc || doc.farm !== 1 || !doc.inverse_EN_to_map_percent || !doc.enuOrigin) {
+          throw new Error("bad fit");
+        }
+        farm1Fit = doc;
+        return doc;
+      })
+      .catch((err) => {
+        farm1FitPromise = null;
+        throw err;
+      });
+    return farm1FitPromise;
+  }
+
+  function applyMyLocation(pos) {
+    if (!farm1Fit || !pos || !pos.coords) return;
+    const lat = pos.coords.latitude;
+    const lon = pos.coords.longitude;
+    if (!Number.isFinite(lat) || !Number.isFinite(lon)) return;
+    const proj = projectFarm1(lat, lon, farm1Fit);
+    if (!proj.inside) {
+      hideMyLocDot();
+      setMyLocStatus("Outside Farm 1 map", "out");
+      return;
+    }
+    showMyLocDot(proj.x, proj.y);
+    const acc = pos.coords.accuracy;
+    const accTxt = Number.isFinite(acc) ? " · \u00b1" + Math.round(acc) + " m" : "";
+    setMyLocStatus("On Farm 1" + accTxt, "on");
+  }
+
+  function stopMyLocation() {
+    if (myLocWatchId != null && navigator.geolocation) {
+      navigator.geolocation.clearWatch(myLocWatchId);
+    }
+    myLocWatchId = null;
+    myLocPending = null;
+    myLocScrolled = false;
+    const btn = $("#btnMyLocation");
+    if (btn) {
+      btn.setAttribute("aria-pressed", "false");
+      btn.textContent = "Show my location";
+    }
+    hideMyLocDot();
+    setMyLocStatus("");
+  }
+
+  function onMyLocPosition(pos) {
+    myLocPending = pos;
+    if (!farm1Fit) return;
+    applyMyLocation(pos);
+  }
+
+  function onMyLocError(err) {
+    hideMyLocDot();
+    let msg = "Location unavailable";
+    const code = err && err.code;
+    if (code === 1) msg = "Location blocked";
+    else if (code === 3) msg = "Location timed out";
+    if (code === 1) {
+      stopMyLocation();
+      setMyLocStatus(msg, "err");
+      return;
+    }
+    setMyLocStatus(msg, "err");
+  }
+
+  function startMyLocation() {
+    const btn = $("#btnMyLocation");
+    if (!navigator.geolocation) {
+      setMyLocStatus("GPS not available", "err");
+      return;
+    }
+    if (btn) {
+      btn.setAttribute("aria-pressed", "true");
+      btn.textContent = "Show my location";
+    }
+    setMyLocStatus("Locating\u2026", "wait");
+    myLocWatchId = navigator.geolocation.watchPosition(onMyLocPosition, onMyLocError, {
+      enableHighAccuracy: true,
+      maximumAge: 1000,
+      timeout: 20000,
+    });
+    ensureFarm1Fit()
+      .then(() => {
+        if (myLocWatchId == null) return;
+        if (myLocPending) applyMyLocation(myLocPending);
+      })
+      .catch(() => {
+        if (myLocWatchId == null) return;
+        stopMyLocation();
+        setMyLocStatus("Farm 1 map fit missing", "err");
+      });
+  }
+
+  function toggleMyLocation() {
+    const btn = $("#btnMyLocation");
+    const on = btn && btn.getAttribute("aria-pressed") === "true";
+    if (on || myLocWatchId != null) stopMyLocation();
+    else startMyLocation();
   }
 
   function bind() {
@@ -2501,6 +2696,9 @@
     $("#btnFit").addEventListener("click", () => {
       $(".map-wrap").scrollTo({ left: 0, top: 0, behavior: "smooth" });
     });
+
+    const btnMyLocation = $("#btnMyLocation");
+    if (btnMyLocation) btnMyLocation.addEventListener("click", toggleMyLocation);
 
     const clearLabelsBtn = $("#btnClearLabels");
     if (clearLabelsBtn) clearLabelsBtn.addEventListener("click", clearAllLabels);
