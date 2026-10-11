@@ -644,7 +644,7 @@ body.assign-mode.layout-assign .photo-panel,
     overflow:visible;
   }
   .results{
-    flex:1 1 auto;min-height:200px;max-height:55vh;overflow:auto;
+    flex:1 1 auto;min-height:200px;max-height:none;overflow:visible;
   }
   .photo-panel,
   .layout .photo-panel,

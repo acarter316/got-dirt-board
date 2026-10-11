@@ -680,6 +680,7 @@
         else all = false;
       }
       if (all) score += 80 + toks.length * 15;
+      else if (toks.length >= 2 && score < 120) return 0;
       else score += partial * 10;
     } else if (!sizes.length && search.includes(q)) {
       score += 40;
